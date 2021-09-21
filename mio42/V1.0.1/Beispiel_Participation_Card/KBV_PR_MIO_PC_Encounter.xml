@@ -1,0 +1,46 @@
+<Encounter xmlns="http://hl7.org/fhir">
+    <id value="2e20e9b0-011d-4f2a-9233-1f85347a266b" />
+    <meta>
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PC_Encounter|1.0.1" />
+    </meta>
+    <status value="finished" />
+    <class>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
+        <version value="2.0.0" />
+        <code value="AMB" />
+        <display value="ambulatory" />
+    </class>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct" />
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+            <code value="170263002" />
+            <display value="Child 6 month examination (procedure)">
+                <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                    <extension url="content">
+                        <valueString value="U4" />
+                    </extension>
+                </extension>
+            </display>
+        </coding>
+    </type>
+    <subject>
+        <reference value="urn:uuid:2cd11850-536d-4dca-8b7d-12f6c4fc204f" />
+    </subject>
+	<participant>
+		<type>
+			<coding>
+				<system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType" />
+				<version value="2.0.0"/>
+				<code value="PPRF"/>
+				<display value="primary performer"/>			
+			</coding>
+		</type>
+		<individual>
+			<reference value="urn:uuid:43676765-7eec-480d-b564-d40ff7b2b161" />
+		</individual>
+	</participant>
+    <period>
+        <start value="2016-12-15" />
+    </period>
+</Encounter>

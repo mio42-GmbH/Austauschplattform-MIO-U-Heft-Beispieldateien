@@ -1,0 +1,29 @@
+<Observation xmlns="http://hl7.org/fhir">
+	<id value="be304ab3-978b-42fa-a8df-f5d3a806cc39" />
+	<meta>
+		<profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_PN_Observation_Parental_Notes|1.0.1" />
+	</meta>
+	<status value="final" />
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+			<code value="401141001" />
+			<display value="Parental concern about child (finding)">
+				<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+					<extension url="content">
+						<valueString value="Hier können Sie Ihre Notizen eintragen:" />
+					</extension>
+				</extension>
+			</display>
+		</coding>
+	</code>
+	<subject>
+		<reference value="urn:uuid:2cd11850-536d-4dca-8b7d-12f6c4fc204f" />
+	</subject>
+	<encounter>
+		<reference value="urn:uuid:579f353e-61a2-4c98-a03d-42e6849e879b" />
+	</encounter>
+	<effectiveDateTime value="2019-09-15" />
+	 <valueString value="Das Kind ist sehr schläfrig." />
+</Observation>

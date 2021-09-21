@@ -1,0 +1,49 @@
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="60548512-c957-4a47-b832-578ea8938975" />
+  <meta>
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U4_U9_Status_Of_Immunization|1.0.0" />
+  </meta>
+  <status value="final" />
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct" />
+      <version value="http://snomed.info/sct/900000000000207008/version/20200731" />
+      <code value="171258008" />
+      <display value="Up-to-date with immunizations (finding)">
+        <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+          <extension url="content">
+            <valueString value="Impfstatus beim Verlassen der Praxis vollständig:" />
+          </extension>
+        </extension>
+      </display>
+    </coding>
+  </code>
+  <subject>
+    <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+  </subject>
+  <encounter>
+    <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+  </encounter>
+  <effectiveDateTime value="2020-07-07" />
+  <performer>
+    <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+  </performer>
+  <valueBoolean value="false" />
+  <component>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct" />
+        <version value="http://snomed.info/sct/900000000000207008/version/20200731" />
+        <code value="171279008" />
+        <display value="Immunization due (finding)">
+          <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+            <extension url="content">
+              <valueString value="fehlende Impfungen" />
+            </extension>
+          </extension>
+        </display>
+      </coding>
+    </code>
+    <valueString value="Auffrischung Tetanus Diphtherie Pertussis" />
+  </component>
+</Observation>

@@ -1,0 +1,31 @@
+<Procedure xmlns="http://hl7.org/fhir">
+  <id value="0d7c59cc-f618-4665-a6e6-c6d43892481b" />
+  <meta>
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_U9_Consultation|1.0.0" />
+  </meta>
+  <status value="completed" />
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct" />
+      <version value="http://snomed.info/sct/900000000000207008/version/20200731" />
+      <code value="709135003" />
+      <display value="Video screen time education (procedure)">
+        <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+          <extension url="content">
+            <valueString value="Medien (z. B. Medienkonsum, TV, Spielekonsolen, Dauerbeschallung)" />
+          </extension>
+        </extension>
+      </display>
+    </coding>
+  </code>
+  <subject>
+    <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+  </subject>
+  <encounter>
+    <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+  </encounter>
+  <performedDateTime value="2020-07-07" />
+  <asserter>
+    <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+  </asserter>
+</Procedure>

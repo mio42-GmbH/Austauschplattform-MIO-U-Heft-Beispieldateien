@@ -1,0 +1,32 @@
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+  <meta>
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.0" />
+  </meta>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+        <code value="LANR" />
+		<display value="Lifelong physician number" />
+      </coding>
+    </type>
+    <system value="https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR" />
+    <value value="123456789" />
+  </identifier>
+  <name>
+    <use value="official" />
+    <text value="Dr. med. Till Früherkenner" />
+    <family value="Früherkenner">
+      <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-name">
+        <valueString value="Früherkenner" />
+      </extension>
+    </family>
+    <given value="Till" />
+    <prefix value="Dr. med.">
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier">
+        <valueCode value="AC" />
+      </extension>
+    </prefix>
+  </name>
+</Practitioner>
