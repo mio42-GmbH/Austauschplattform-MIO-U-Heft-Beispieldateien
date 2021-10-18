@@ -1,0 +1,52 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <id value="dd7be6ae-4150-4fe1-b213-24dec9e321a2" />
+    <meta>
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U3_U4_Hip_Screening|1.0.1" />
+    </meta>
+	<status value="final" />
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+			<code value="241503003" />
+			<display value="Ultrasound scan of neonatal hip (procedure)">
+                <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                    <extension url="content">
+                        <valueString value="Hüftsonographie:" />
+                    </extension>
+                </extension>
+            </display>
+		</coding>
+		<coding>
+			<system value="http://loinc.org" />
+			<version value="2.69" />
+			<code value="30711-6" />
+			<display value="US Hip developmental joint assessment">
+                <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                    <extension url="content">
+                        <valueString value="Hüftsonographie:" />
+                    </extension>
+                </extension>
+            </display>
+		</coding>
+	</code>
+	<subject>
+		<reference value="urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67" />
+	</subject>
+	<encounter>
+		<reference value="urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52" />
+	</encounter>
+	<effectiveDateTime value="2021-03-29" />
+	<performer>
+		<reference value="urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c" />
+	</performer>
+	<result>
+		<!-- Screeningergebnis rechts -->
+		<reference value="urn:uuid:9e27d7f9-258a-4973-b7bf-22b05ffcb179"/>
+	</result>
+	<result>
+		<!-- Screeningergebnis links -->
+		<reference value="urn:uuid:a8f91108-440e-4002-902f-f16e4bd3f505"/>
+	</result>
+</DiagnosticReport>
+

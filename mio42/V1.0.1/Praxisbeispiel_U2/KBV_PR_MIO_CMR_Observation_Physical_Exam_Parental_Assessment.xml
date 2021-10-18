@@ -1,0 +1,33 @@
+<Observation xmlns="http://hl7.org/fhir">
+    <id value="3f421ab0-cf8f-4e9a-8c17-5eec3fca3a04" />
+    <meta>
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_Physical_Exam_Parental_Assessment|1.0.1" />
+    </meta>
+	<status value="final" />
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+			<code value="401141001" />
+			<display value="Parental concern about child (finding)">
+                <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                    <extension url="content">
+                        <valueString value="Eltern sind unzufrieden mit der Entwicklung und dem Verhalten des Kindes, weil:" />
+                    </extension>
+                </extension>
+            </display>
+		</coding>
+	</code>
+	<subject>
+		<reference value="urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67" />
+	</subject>
+	<encounter>
+		<reference value="urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52" />
+	</encounter>
+	<effectiveDateTime value="2021-03-09" />
+	<performer>
+		<reference value="urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c" />
+	</performer>
+	<valueString value="Kind trinkt schlecht, nicht aktiv, schläfrig"/>
+</Observation>
+

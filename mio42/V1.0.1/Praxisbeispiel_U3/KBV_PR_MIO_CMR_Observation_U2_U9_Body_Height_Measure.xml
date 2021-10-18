@@ -1,0 +1,50 @@
+<Observation xmlns="http://hl7.org/fhir">
+    <id value="1e030119-a721-4ad8-a271-3ac7fa1e8dfb" />
+    <meta>
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U9_Body_Height_Measure|1.0.1" />
+    </meta>
+	<status value="final" />
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+			<code value="248334005" />
+			<display value="Length of body (observable entity)">
+                <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                    <extension url="content">
+                        <valueString value="Körperlänge in cm" />
+                    </extension>
+                </extension>
+            </display>
+		</coding>
+		<coding>
+			<system value="http://loinc.org" />
+			<version value="2.69" />
+			<code value="8302-2" />
+			<display value="Body height">
+                <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                    <extension url="content">
+                        <valueString value="Körperlänge in cm" />
+                    </extension>
+                </extension>
+            </display>
+		</coding>
+	</code>
+	<subject>
+		<reference value="urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67" />
+	</subject>
+	<encounter>
+		<reference value="urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52" />
+	</encounter>
+	<effectiveDateTime value="2021-03-29" />
+	<performer>
+		<reference value="urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c" />
+	</performer>
+	<valueQuantity>
+		<value value="54.1" />
+		<unit value="cm" />
+		<system value="http://unitsofmeasure.org" />
+		<code value="cm" />	
+	</valueQuantity>
+</Observation>
+

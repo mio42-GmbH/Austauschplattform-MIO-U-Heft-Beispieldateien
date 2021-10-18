@@ -1,0 +1,305 @@
+<Composition xmlns="http://hl7.org/fhir">
+	<id value="2da088f0-afd1-48aa-912a-9be29642266d" />
+	<meta>
+		<profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_U3|1.0.1" />
+	</meta>
+	<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+		<valueString value="U3 Elterninformation zur Untersuchung von der 4. bis zur 5. Lebenswoche Ihr Baby ist jetzt etwa einen Monat alt. Die meisten Babys können von der dritten Woche an den Kopf zu Geräuschquellen hinwenden. Sie schauen lieber farbige als graue Flächen an und haben einen ausgeprägten Saug- und Greifreflex. Ein wichtiges Ziel der U3 und aller weiteren Untersuchungen ist es, Entwicklungsauffälligkeiten möglichst frühzeitig zu erkennen. Bei der U3 achtet die Ärztin oder der Arzt beispielsweise darauf, ob Ihr Baby schon in Bauchlage den Kopf halten kann, die Hände spontan öffnet oder aufmerksam in nahe Gesichter schaut. Neben einer gründlichen körperlichen Untersuchung werden zusätzlich mit Ultraschall die Hüftgelenke Ihres Babys überprüft, um eventuelle Fehlstellungen rechtzeitig behandeln zu können. Die Ultraschalluntersuchung der Hüftgelenke sollten Sie nutzen, da Sie Ihrem Baby dadurch schwerwiegende, lebenslange Beschwerden ersparen können. Wie bei der U1 und U2 wird die Ärztin oder der Arzt nochmals darauf achten, ob Ihr Baby eine behandlungsbedürftige Gelbsucht hat, die zum Beispiel ein Hinweis auf einen Verschluss der Gallengänge sein kann. Sie werden gefragt, ob es Auffälligkeiten beim Schlafen, Trinken, bei der Verdauung oder im sonstigen Verhalten Ihres Babys gibt. Zur Vorbeugung gegen die Knochenerkrankung Rachitis wird Vitamin D sowie Fluorid für die spätere Zahnhärtung empfohlen. Sie werden erneut zum Thema Stillen und Ernährung beraten sowie über Maßnahmen, die das Risiko eines plötzlichen Kindstodes mindern. Zudem geht es allgemein um Unfallverhütung und um Gefahren für Ihr Baby durch Abhängigkeit und Sucht in der Familie. Falls die Tests auf angeborene Stoffwechselstörungen und/oder Mukoviszidose sowie der Neugeborenen-Hörtest noch nicht stattgefunden haben, sollten sie umgehend erfolgen, da es für einige Erkrankungen wichtig ist, dass die Diagnose schnell gestellt werden kann."/>
+	</extension>
+	<status value="final" />
+	<type>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+			<code value="243788004:370131001=133931009" />
+			<display value="Child examination (procedure) : Recipient category = Infant (person)" />
+		</coding>
+	</type>
+	<category>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+			<code value="243788004" />
+			<display value="Child examination (procedure)" />
+		</coding>
+	</category>
+	<subject>
+		<reference value="urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67" />
+	</subject>
+	<encounter>
+		<reference value="urn:uuid:e955b3a6-385c-4712-b201-fed3a1a21ca3" />
+	</encounter>
+	<date value="2021-03-29" />
+	<author>
+		<reference value="urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c" />
+	</author>
+	<title value="U3" />
+	<!--aktuelle Anamnese des Kindes-->
+	<section>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+			<valueString value="Zutreffendes bitte ankreuzen!" />
+		</extension>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+			<valueString value="Schwangerschafts- und Geburtsanamnese: Erhebung und Dokumentation in der U1 prüfen und ggf. nachtragen." />
+		</extension>
+		<title value="Aktuelle Anamnese des Kindes"/>
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+				<code value="423374008" />
+				<display value="Review of systems section (record artifact)" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Aktuelle Anamnese des Kindes</p>
+			</div>
+		</text>
+		<emptyReason>
+			<coding>
+				<system value="http://terminology.hl7.org/CodeSystem/list-empty-reason" />
+				<version value="4.0.1" />
+				<code value="closed"/>
+				<display value="Closed"/>
+			</coding>
+		</emptyReason>
+	</section>
+	<!-- Familienanamnese -->
+	<section>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+			<valueString value="Zutreffendes bitte ankreuzen!" />
+		</extension>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+			<valueString value="Schwangerschafts- und Geburtsanamnese: Erhebung und Dokumentation in der U1 prüfen und ggf. nachtragen." />
+		</extension>
+		<title value="Familienanamnese" />
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+				<code value="422432008" />
+				<display value="Family history section (record artifact)" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated" />
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Familienanamnese</p>
+			</div>
+		</text>
+		<emptyReason>
+			<coding>
+				<system value="http://terminology.hl7.org/CodeSystem/list-empty-reason" />
+				<version value="4.0.1"/>
+				<code value="closed" />
+				<display value="Closed" />
+			</coding>
+		</emptyReason>
+	</section>
+	<!-- Sozialanamnese -->
+	<section>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+			<valueString value="Zutreffendes bitte ankreuzen!" />
+		</extension>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+			<valueString value="Schwangerschafts- und Geburtsanamnese: Erhebung und Dokumentation in der U1 prüfen und ggf. nachtragen." />
+		</extension>
+		<title value="Sozialanamnese" />
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+				<code value="281575007" />
+				<display value="Family social history (situation)" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated" />
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Sozialanamnese</p>
+			</div>
+		</text>
+		<emptyReason>
+			<coding>
+				<system value="http://terminology.hl7.org/CodeSystem/list-empty-reason" />
+				<version value="4.0.1"/>
+				<code value="closed" />
+				<display value="Closed" />
+			</coding>
+		</emptyReason>
+	</section>
+	<!--Untersuchung-->
+	<section>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+			<valueString value="Nur Auffälligkeiten ankreuzen!" />
+		</extension>
+		<title value="Körperliche Untersuchung"/>
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+				<code value="425044008" />
+				<display value="Physical exam section (record artifact)" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Untersuchung</p>
+			</div>
+		</text>
+		<emptyReason>
+			<coding>
+				<system value="http://terminology.hl7.org/CodeSystem/list-empty-reason" />
+				<version value="4.0.1"/>
+				<code value="closed" />
+				<display value="Closed" />
+			</coding>
+		</emptyReason>
+	</section>
+	<!--Beratung-->
+	<section>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+			<valueString value="Bei erweitertem Beratungsbedarf bitte ankreuzen!" />
+		</extension>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+			<valueString value="Beratung vor allem zu folgenden Themen:" />
+		</extension>
+		<title value="Beratung" />
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+				<code value="409066002" />
+				<display value="Education, guidance and counseling (procedure)" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Beratung</p>
+			</div>
+		</text>
+		<emptyReason>
+			<coding>
+				<system value="http://terminology.hl7.org/CodeSystem/list-empty-reason" />
+				<version value="4.0.1"/>
+				<code value="closed" />
+				<display value="Closed" />
+			</coding>
+		</emptyReason>
+	</section>
+	<!--Ergebnisse-->
+	<section>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+			<valueString value="Prüfung, Aufklärung und ggf. Veranlassung der Durchführung von: -Erweitertes Neugeborenen-Screening -Screening auf Mukoviszidose -Screening auf Hüftgelenksdysplasie und -luxation -Neugeborenen-Hörscreening" />
+		</extension>
+		<title value="Ergebnisse" />
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+				<code value="423100009" />
+				<display value="Results section (record artifact)" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Ergebnisse</p>
+			</div>
+		</text>
+		<entry>
+			<!-- CMR_Observation_U2_U9_No_Abnormality_Detected -->
+			<reference value="urn:uuid:1815e49b-37a9-4cef-9700-faf9d78b350a" />
+		</entry>
+		<entry>
+			<!-- CMR_Diagnostic_Report_U2_U6_Body_Measures -->
+			<reference value="urn:uuid:d67eba3e-807f-4bb3-968a-7319f7d9e455" />
+		</entry>
+		<entry>
+			<!-- CMR_Observation_U2_U9_Relevant_History_Results -->
+			<reference value="urn:uuid:8fe91e49-ad72-4068-bd91-5f17a72cd6dd" />
+		</entry>
+		<entry>
+			<!-- CMR_Appointment_Next_Appointment -->
+			<reference value="urn:uuid:685fe2c0-f297-433b-bba5-80b83f994a64" />
+		</entry>
+		<entry>
+			<!-- CMR_Appointment_Next_Immunization_Appointment -->
+			<reference value="urn:uuid:1bd779f9-a135-40be-bdd4-3e9dce1fb8c8" />
+		</entry>
+		<section>
+			<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+				<valueString value="- Erweitertes Neugeborenen-Screening - Screening auf Mukoviszidose - Screening auf Hüftgelenksdysplasie und -luxation - Neugeborenen-Hörscreening"/>
+			</extension>
+			<title value="Prüfung, Aufklärung und ggf. Veranlassung der Durchführung von:" />
+			<entry>
+				<!--  Vitamin K Prophylaxe  -->
+				<reference value="urn:uuid:e8ef3659-d950-4d61-8627-43e33afa5d9e" />
+			</entry>
+		</section>
+	</section>
+	<!--Orientierende Beurteilung der Entwicklung-->
+	<section>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+			<valueString value="Nur ankreuzen, wenn die Items NICHT erfüllt werden!" />
+		</extension>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+			<valueString value="Beobachtung der Interaktion Insbesondere die folgenden Reaktionen des Kindes können der Ärztin oder dem Arzt als Hinweise zur Einschätzung von Stimmung, Kommunikations- und Regulationsmöglichkeiten des Kindes im Kontakt mit seiner primären Bezugsperson und als weitere Grundlage für das Ärztin- oder Arzt-Elterngespräch dienen:" />
+		</extension>
+		<title value="Orientierende Beurteilung der Entwicklung" />
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+				<code value="406207000" />
+				<display value="Child development by age (observable entity)" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Orientierende Beurteilung der Entwicklung</p>
+			</div>
+		</text>
+		<emptyReason>
+			<coding>
+				<system value="http://terminology.hl7.org/CodeSystem/list-empty-reason" />
+				<version value="4.0.1"/>
+				<code value="closed" />
+				<display value="Closed" />
+			</coding>
+		</emptyReason>
+	</section>
+	<!-- Screening auf Hüftgelenksdysplasie und -luxation -->
+	<section>
+		<title value="Screening auf Hüftgelenksdysplasie und -luxation" />
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+				<code value="171241003" />
+				<display value="Congenital dislocation of the hip screening (procedure)" />
+			</coding>
+			<coding>
+				<system value="http://loinc.org" />
+				<version value="2.69"/>
+				<code value="30711-6" />
+				<display value="US Hip developmental joint assessment" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Screening auf Hüftgelenksdysplasie und -luxation</p>
+			</div>
+		</text>
+		<entry>
+			<!-- CMR_Diagnostic_Report_U3_U4_Hip_Screening -->
+			<reference value="urn:uuid:dd7be6ae-4150-4fe1-b213-24dec9e321a2" />
+		</entry>
+	</section>
+</Composition>

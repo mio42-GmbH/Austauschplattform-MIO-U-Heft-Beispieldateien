@@ -1,0 +1,33 @@
+<Observation xmlns="http://hl7.org/fhir">
+    <id value="8fe91e49-ad72-4068-bd91-5f17a72cd6dd" />
+    <meta>
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U9_Relevant_History_Results|1.0.1" />
+    </meta>
+	<status value="final" />
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+			<code value="365854008" />
+			<display value="History finding (finding)">
+                <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                    <extension url="content">
+                        <valueString value="Relevante anamnestische Ergebnisse:" />
+                    </extension>
+                </extension>
+            </display>
+		</coding>
+	</code>
+	<subject>
+		<reference value="urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67" />
+	</subject>
+	<encounter>
+		<reference value="urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52" />
+	</encounter>
+	<effectiveDateTime value="2021-03-29" />
+	<performer>
+		<reference value="urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c" />
+	</performer>
+	<valueString value="Phototherapie erfolgreich, kein Ikterus mehr." />
+</Observation>
+

@@ -1,0 +1,36 @@
+<Appointment xmlns="http://hl7.org/fhir">
+	<id value="1bd779f9-a135-40be-bdd4-3e9dce1fb8c8" />
+	<meta>
+		<profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Appointment_Next_Immunization_Appointment|1.0.1" />
+	</meta>
+	<status value="proposed" />
+	<serviceType>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+			<code value="390840006:42752001=127785005" />
+			<display value="Next appointment (finding) : Due to (attribute) = Administration of substance to produce immunity, either active or passive (procedure)">
+				<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+					<extension url="content">
+						<valueString value="nächster Impftermin am:" />
+					</extension>
+				</extension>
+			</display>
+		</coding>
+	</serviceType>
+	<participant>
+		<actor>
+			<reference value="urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67" />
+		</actor>
+		<status value="accepted" />
+	</participant>
+	<participant>
+		<actor>
+			<reference value="urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c" />
+		</actor>
+		<status value="accepted" />
+	</participant>
+	<requestedPeriod>
+		<start value="2021-04-16" />
+	</requestedPeriod>
+</Appointment>

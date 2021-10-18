@@ -1,0 +1,36 @@
+<ServiceRequest xmlns="http://hl7.org/fhir">
+    <id value="83531a08-4a75-4dd2-b78a-45bd10e195ed" />
+    <meta>
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Service_Request_U1_U3_Pulse_Oxymetry_Clarification|1.0.1" />
+    </meta>
+	<status value="active" />
+	<intent value="order" />
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+			<code value="417311009" />
+			<display value="Referral to pediatric cardiology service (procedure)">
+                <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                    <extension url="content">
+                        <valueString value="Abklärung veranlasst" />
+                    </extension>
+                </extension>
+            </display>
+		</coding>
+	</code>
+	<subject>
+		<reference value="urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67" />
+	</subject>
+	<encounter>
+		<reference value="urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52" />
+	</encounter>
+	<authoredOn value="2021-03-02" />
+	<requester>
+		<reference value="urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c" />
+	</requester>
+	<reasonReference>
+		<reference value="urn:uuid:6d1ad633-349a-43e0-a336-9bcaec70dc10" />
+	</reasonReference>
+</ServiceRequest>
+

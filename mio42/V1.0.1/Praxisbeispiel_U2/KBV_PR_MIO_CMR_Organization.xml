@@ -1,0 +1,11 @@
+<Organization xmlns="http://hl7.org/fhir">
+    <id value="14ed2b60-e624-4339-90b6-55d10c7c98e6" />
+    <meta>
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Organization|1.0.1" />
+    </meta>
+    <name value="Praxis für Kinderheilkunde" />
+    <telecom>
+        <system value="phone" />
+        <value value="142/23643754" />
+    </telecom>
+</Organization>

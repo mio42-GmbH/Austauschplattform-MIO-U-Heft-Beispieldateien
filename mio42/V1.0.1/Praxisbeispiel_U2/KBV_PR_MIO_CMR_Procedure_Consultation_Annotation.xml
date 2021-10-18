@@ -1,0 +1,34 @@
+<Procedure xmlns="http://hl7.org/fhir">
+    <id value="a8c83e50-1ddc-4240-b07b-a96892ca0eac" />
+    <meta>
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_Consultation_Annotation|1.0.1" />
+    </meta>
+	<status value="completed" />
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+			<code value="408991007" />
+			<display value="Child care education (procedure)">
+                <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                    <extension url="content">
+                        <valueString value="Bemerkung" />
+                    </extension>
+                </extension>
+            </display>
+		</coding>
+	</code>
+	<subject>
+		<reference value="urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67" />
+	</subject>
+	<encounter>
+		<reference value="urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52" />
+	</encounter>
+	<performedDateTime value="2021-03-09" />
+	<asserter>
+		<reference value="urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c" />
+	</asserter>
+	<note>
+		<text value="Beratung zum Stillen bei Kind mit Ikterus" />
+	</note> 
+</Procedure>

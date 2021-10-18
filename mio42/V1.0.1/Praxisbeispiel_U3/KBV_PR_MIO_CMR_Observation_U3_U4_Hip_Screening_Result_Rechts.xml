@@ -1,0 +1,105 @@
+<Observation xmlns="http://hl7.org/fhir">
+	<id value="9e27d7f9-258a-4973-b7bf-22b05ffcb179" />
+	<meta>
+		<profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U3_U4_Hip_Screening_Result|1.0.1" />
+	</meta>
+	<status value="final" />
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+			<code value="129125009:{363589002=241503003,408730004=398166005,408731000=410584005}" />
+			<display value="Procedure with explicit context (situation) : { Associated procedure (attribute) = Ultrasound scan of neonatal hip (procedure) , Procedure context (situation) =  Performed (qualifier value) , Temporal context (situation) = Current - time specified (qualifier value) }">
+				<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+					<extension url="content">
+						<valueString value="Hüftsonographischer Vorbefund: nein" />
+					</extension>
+				</extension>
+			</display>
+		</coding>
+	</code>
+	<subject>
+		<reference value="urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67" />
+	</subject>
+	<encounter>
+		<reference value="urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52" />
+	</encounter>
+	<effectiveDateTime value="2021-03-29" />
+	<performer>
+		<reference value="urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c" />
+	</performer>
+	<valueCodeableConcept>
+		<coding>
+			<system value="https://fhir.kbv.de/CodeSystem/KBV_CS_MIO_CMR_Graf_Hip_Ultrasound_Classification" />
+			<version value="1.1.0" />
+			<code value="1ab" />
+			<display value="Graf Ia/Ib">
+				<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+					<extension url="content">
+						<valueString value="Ia/Ib" />
+					</extension>
+				</extension>
+			</display>
+		</coding>
+	</valueCodeableConcept>
+	<bodySite>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+			<code value="362906008" />
+			<display value="Entire right hip joint (body structure)">
+				<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+					<extension url="content">
+						<valueString value="rechte Hüfte" />
+					</extension>
+				</extension>
+			</display>
+		</coding>
+	</bodySite>
+	<component>
+		<!-- Beta Winkel -->
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+				<code value="364501006:{704321009=241503003,246501002=278395004,246514001=259046004,718497002=91685003}" />
+				<display value="Hip joint feature (observable entity) : { Characterizes (attribute) = Ultrasound scan of neonatal hip (procedure) , Technique (attribute) = Imaging technique (qualifier value) , Units (attribute) = degrees of arc (qualifier value) , Inherent location (attribute) = Fibrocartilage (body structure) }">
+					<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+						<extension url="content">
+							<valueString value="Beta-Winkel (Grad)" />
+						</extension>
+					</extension>
+				</display>
+			</coding>
+		</code>
+		<valueQuantity>
+			<value value="53" />
+			<unit value="DegreesOfArc"/>
+			<system value="http://unitsofmeasure.org" />
+			<code value="deg"/>
+		</valueQuantity>
+	</component>
+	<component>
+		<!-- Alpha Winkel -->
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+				<code value="364501006:{704321009=241503003,246501002=278395004,246514001=259046004,718497002=58823008}" />
+				<display value="Hip joint feature (observable entity) : { Characterizes (attribute) = Ultrasound scan of neonatal hip (procedure) , Technique (attribute) = Imaging technique (qualifier value) , Units (attribute) = degrees of arc (qualifier value) , Inherent location (attribute) = Structure of acetabular fossa (body structure) }">
+					<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+						<extension url="content">
+							<valueString value="Alpha-Winkel (Grad)" />
+						</extension>
+					</extension>
+				</display>
+			</coding>
+		</code>
+		<valueQuantity>
+			<value value="65" />
+			<unit value="DegreesOfArc"/>
+			<system value="http://unitsofmeasure.org" />
+			<code value="deg"/>
+		</valueQuantity>
+	</component>
+</Observation>

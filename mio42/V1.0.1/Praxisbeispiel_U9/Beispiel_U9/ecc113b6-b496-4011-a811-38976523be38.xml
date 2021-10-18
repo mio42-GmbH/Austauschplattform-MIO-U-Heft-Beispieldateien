@@ -1,0 +1,34 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+  <id value="ecc113b6-b496-4011-a811-38976523be38" />
+  <meta>
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U8_U9_Physical_Exam_Mouth_Nose|1.0.1" />
+  </meta>
+  <status value="final" />
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct" />
+      <version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+      <code value="271914002+364111005" />
+      <display value="Ear, nose and throat examination finding (observable entity) + Oral cavity observable (observable entity)">
+        <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+          <extension url="content">
+            <valueString value="Mundhöhle, Kiefer, Nase" />
+          </extension>
+        </extension>
+      </display>
+    </coding>
+  </code>
+  <subject>
+    <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+  </subject>
+  <encounter>
+    <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+  </encounter>
+  <effectiveDateTime value="2020-07-07" />
+  <performer>
+    <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+  </performer>
+  <result>
+    <reference value="urn:uuid:2015c80d-47d2-470a-9356-e6a895ab5c97" />
+  </result>
+</DiagnosticReport>

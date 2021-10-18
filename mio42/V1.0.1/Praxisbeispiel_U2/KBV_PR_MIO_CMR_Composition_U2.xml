@@ -1,0 +1,308 @@
+<Composition xmlns="http://hl7.org/fhir">
+	<id value="445ad108-7a3f-4abc-94bc-bf5cd495b809" />
+	<meta>
+		<profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_U2|1.0.1" />
+	</meta>
+	<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+		<valueString value="U2 Elterninformation zur Untersuchung vom 3. bis zum 10. Lebenstag Ihr Baby ist jetzt einige Tage alt. Wenn Sie in der Klinik sind, wird die zweite Untersuchung, die U2, dort stattfinden. Wenn Sie zu Hause sind, vereinbaren Sie so fr&#252;h wie m&#246;glich einen Untersuchungstermin bei der &#196;rztin oder dem Arzt, die oder der Ihr Baby betreuen soll. Die U2 soll drei bis sp&#228;testens zehn Tage nach der Geburt stattfinden. Falls die Tests auf kritische angeborene Herzfehler, angeborene Stoffwechselst&#246;rungen und/oder Mukoviszidose sowie der Neugeborenen-H&#246;rtest noch nicht durchgef&#252;hrt wurden, sollten sie umgehend erfolgen, da es f&#252;r einige Erkrankungen wichtig ist, dass die Diagnose schnell gestellt werden kann. Durch eine eingehende k&#246;rperliche Untersuchung Ihres Babys sollen bei der U2 angeborene Erkrankungen und Fehlbildungen (z. B. Fehlbildungen des Herzens) erkannt und lebensbedrohliche Komplikationen vermieden werden. Hierzu geh&#246;rt auch das Erkennen einer behandlungsbed&#252;rftigen Gelbsucht. Bei dieser und bei allen weiteren Untersuchungen wird Ihr Baby gemessen und gewogen. Es wird besonders geachtet auf: • die Haut • die Sinnesorgane • die Brust- und Bauchorgane • die Geschlechtsorgane • den Kopf (Mund, Nase, Augen, Ohren) • das Skelettsystem mit Muskeln und Nerven. Die &#196;rztin oder der Arzt bespricht mit Ihnen, was f&#252;r die gesunde Entwicklung Ihres Babys wichtig ist. Sie erhalten Informationen zu regionalen Unterst&#252;tzungsangeboten (z. B. Eltern-Kind-Hilfen, Fr&#252;he Hilfen). Bei dieser Untersuchung erh&#228;lt Ihr Baby nochmals Vitamin K, um Blutungen vorzubeugen. Au&#223;erdem werden Sie &#252;ber Vitamin D zur Vorbeugung der Knochenerkrankung Rachitis und &#252;ber Fluorid beraten, das f&#252;r die sp&#228;tere Zahnh&#228;rtung wichtig ist. Gegebenenfalls werden diese Ihrem Baby verschrieben. Au&#223;erdem werden Sie zu den Themen Stillen und Ern&#228;hrung beraten sowie &#252;ber Ma&#223;nahmen, die das Risiko eines pl&#246;tzlichen Kindstodes vermindern." />
+	</extension>
+	<status value="final" />
+	<type>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+			<code value="170107008" />
+			<display value="Child examination - 10 days (procedure)" />
+		</coding>
+	</type>
+	<category>
+		<coding>
+			<system value="http://snomed.info/sct" />
+			<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+			<code value="243788004" />
+			<display value="Child examination (procedure)" />
+		</coding>
+	</category>
+	<subject>
+		<reference value="urn:uuid:87c31a8d-509a-4f7c-9a21-d60560af9c67" />
+	</subject>
+	<encounter>
+		<reference value="urn:uuid:0e971145-3b6e-4693-8734-e2480568fe52" />
+	</encounter>
+	<date value="2021-09-03" />
+	<author>
+		<reference value="urn:uuid:1f6ca65f-10fe-4727-ba1a-dcf6867df20c" />
+	</author>
+	<title value="U2" />
+	<!--aktuelle Anamnese des Kindes-->
+	<section>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+			<valueString value="Zutreffendes bitte ankreuzen!" />
+		</extension>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+			<valueString value="Schwangerschafts- und Geburtsanamnese: Erhebung und Dokumentation in der U1 prüfen und ggf. nachtragen." />
+		</extension>
+		<title value="Aktuelle Anamnese des Kindes"/>
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+				<code value="423374008" />
+				<display value="Review of systems section (record artifact)" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Aktuelle Anamnese des Kindes</p>
+			</div>
+		</text>
+		<entry>
+			<reference value="urn:uuid:e9419371-639c-4295-8edb-d034fae50c49" />
+		</entry>
+	</section>
+	<!-- Familienanamnese -->
+	<section>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+			<valueString value="Zutreffendes bitte ankreuzen!" />
+		</extension>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+			<valueString value="Schwangerschafts- und Geburtsanamnese: Erhebung und Dokumentation in der U1 prüfen und ggf. nachtragen." />
+		</extension>
+		<title value="Familienanamnese" />
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+				<code value="422432008" />
+				<display value="Family history section (record artifact)" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated" />
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Familienanamnese</p>
+			</div>
+		</text>
+		<emptyReason>
+			<coding>
+				<system value="http://terminology.hl7.org/CodeSystem/list-empty-reason" />
+				<version value="4.0.1"/>
+				<code value="closed" />
+				<display value="Closed" />
+			</coding>
+		</emptyReason>
+	</section>
+	<!-- Sozialanamnese -->
+	<section>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+			<valueString value="Zutreffendes bitte ankreuzen!" />
+		</extension>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+			<valueString value="Schwangerschafts- und Geburtsanamnese: Erhebung und Dokumentation in der U1 prüfen und ggf. nachtragen." />
+		</extension>
+		<title value="Sozialanamnese" />
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+				<code value="281575007" />
+				<display value="Family social history (situation)" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated" />
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Sozialanamnese</p>
+			</div>
+		</text>
+		<emptyReason>
+			<coding>
+				<system value="http://terminology.hl7.org/CodeSystem/list-empty-reason" />
+				<version value="4.0.1"/>
+				<code value="closed" />
+				<display value="Closed" />
+			</coding>
+		</emptyReason>
+	</section>
+	<!--Untersuchung-->
+	<section>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+			<valueString value="Nur Auffälligkeiten ankreuzen!" />
+		</extension>
+		<title value="Körperliche Untersuchung"/>
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+				<code value="425044008" />
+				<display value="Physical exam section (record artifact)" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Untersuchung</p>
+			</div>
+		</text>
+		<entry>
+			<!-- Untersuchung Haut -->
+			<reference value="urn:uuid:27d28ed3-9873-4d8e-8997-716d8e00d52b" />
+		</entry>
+	</section>
+	<!--Beratung-->
+	<section>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+			<valueString value="Bei erweitertem Beratungsbedarf bitte ankreuzen!" />
+		</extension>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+			<valueString value="Beratung vor allem zu folgenden Themen:" />
+		</extension>
+		<title value="Beratung" />
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+				<code value="409066002" />
+				<display value="Education, guidance and counseling (procedure)" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Beratung</p>
+			</div>
+		</text>
+		<entry>
+			<!-- CMR_Procedure_U2_Consultation -->
+			<reference value="urn:uuid:92fec587-abbc-4196-8505-7b2da90a81d6" />
+		</entry>
+		<entry>
+			<!-- CMR_Procedure_Consultation_Annotation -->
+			<reference value="urn:uuid:a8c83e50-1ddc-4240-b07b-a96892ca0eac" />
+		</entry>
+	</section>
+	<!--Ergebnisse-->
+	<section>
+		<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+			<valueString value="Prüfung, Aufklärung und ggf. Veranlassung der Durchführung von: - Pulsoxymetrie-Screening - Erweitertes Neugeborenen-Screening - Screening auf Mukoviszidose - Neugeborenen-Hörscreening - Screening auf Hüftgelenksdysplasie und -luxation (nur bei Risikofaktoren)" />
+		</extension>
+		<title value="Ergebnisse" />
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+				<code value="423100009" />
+				<display value="Results section (record artifact)" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Ergebnisse</p>
+			</div>
+		</text>
+		<entry>
+			<!-- CMR_Observation_U2_U9_Relevant_History_Results -->
+			<reference value="urn:uuid:1fea371e-c661-47b8-bb7d-f040185625f9" />
+		</entry>
+		<entry>
+			<!-- CMR_Diagnostic_Report_U2_U6_Body_Measures -->
+			<reference value="urn:uuid:176ce865-a86c-4016-b48c-f2dbdde822f8" />
+		</entry>
+		<entry>
+			<!-- CMR_Observation_U2_U9_No_Abnormality_Detected -->
+			<reference value="urn:uuid:7fd8f506-6478-4927-a429-47b2e1069c97" />
+		</entry>
+		<entry>
+			<!-- CMR_Care_Plan_U2_U9_Result -->
+			<reference value="urn:uuid:1dde3882-a4a2-44f6-bde3-9f1253be1977" />
+		</entry>
+		<section>
+			<extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+				<valueString value="- Pulsoxymetrie-Screening - Erweitertes Neugeborenen-Screening - Screening auf Mukoviszidose - Neugeborenen-Hörscreening - Screening auf Hüftgelenksdysplasie und -luxation (nur bei Risikofaktoren)"/>
+			</extension>
+			<title value="Prüfung, Aufklärung und ggf. Veranlassung der Durchführung von:" />
+			<!-- Vitamin K Prophylaxe -->
+			<entry>
+				<reference value="urn:uuid:c2e37de8-bfd7-4086-af57-f507e32b39ba" />
+			</entry>
+		</section>
+	</section>
+	<!-- Pulsoxymetrie Screening -->
+	<section>
+		<title value="Pulsoxymetrie-Screening (Messung am Fuß)" />
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+				<code value="252465000:405813007=56459004" />
+				<display value="Pulse oximetry (procedure) : Procedure site - Direct (attribute) = Foot structure (body structure)" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Pulsoxymetrie-Screening</p>
+			</div>
+		</text>
+		<entry>
+			<!-- CMR_Diagnostic_Report_U1_U3_Pulse_Oxymetry -->
+			<reference value="urn:uuid:086bb3d8-017a-4b39-9139-6884cdc727d8" />
+		</entry>
+		<entry>
+			<!-- CMR_Service_Request_U1_U3_Pulse_Oxymetry_Clarification -->
+			<reference value="urn:uuid:83531a08-4a75-4dd2-b78a-45bd10e195ed" />
+		</entry>
+	</section>
+	<!-- Hörsreening -->
+	<section>
+		<title value="Neugeborenen-Hörscreening" />
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+				<code value="252957005" />
+				<display value="Children's hearing test (procedure)" />
+			</coding>
+			<coding>
+				<system value="http://loinc.org" />
+				<version value="2.69"/>
+				<code value="54111-0" />
+				<display value="Newborn hearing screening panel" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Hörscreening</p>
+			</div>
+		</text>
+		<entry>
+			<!-- CMR_Diagnostic_Report_U1_U5_Neonatal_Hearscreening -->
+			<reference value="urn:uuid:3b68977d-6873-4c5e-8753-731decc7caad" />
+		</entry>
+	</section>
+	<!-- Erweitertes Neugeborenenscreening -->
+	<section>
+		<title value="Erweitertes Neugeborenen-Screening" />
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct" />
+				<version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+				<code value="738796001:363702006=428447008" />
+				<display value="Collection of dried blood spot specimen (procedure) : Has focus (attribute) = Newborn blood spot screening (procedure)" />
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Erweitertes Neugeborenenscreening</p>
+			</div>
+		</text>
+		<entry>
+			<!-- CMR_Procedure_U1_U3_Newborn_Blood_Spot_Screening -->
+			<reference value="urn:uuid:fb29b223-b7e0-4285-b60f-75fb69e4df96" />
+		</entry>
+	</section>
+</Composition>

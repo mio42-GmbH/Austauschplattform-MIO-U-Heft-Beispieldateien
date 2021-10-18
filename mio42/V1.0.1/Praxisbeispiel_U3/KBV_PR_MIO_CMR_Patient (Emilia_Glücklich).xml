@@ -1,0 +1,28 @@
+<Patient xmlns="http://hl7.org/fhir">
+    <id value="87c31a8d-509a-4f7c-9a21-d60560af9c67" />
+    <meta>
+        <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.1" />
+    </meta>
+    <identifier>
+        <type>
+            <coding>
+                <system value="http://fhir.de/CodeSystem/identifier-type-de-basis" />
+                <code value="GKV" />
+				<display value="Gesetzliche Krankenversicherung" />
+            </coding>
+        </type>
+        <system value="http://fhir.de/NamingSystem/gkv/kvid-10" />
+        <value value="E987654321" />
+    </identifier>
+    <name>
+        <use value="official" />
+        <text value="Emilia Glücklich" />
+        <family value="Glücklich">
+            <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-name">
+                <valueString value="Glücklich" />
+            </extension>
+        </family>
+        <given value="Emilia" />
+    </name>
+    <birthDate value="2015-10-05" />
+</Patient>
