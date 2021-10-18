@@ -1,0 +1,46 @@
+<Encounter xmlns="http://hl7.org/fhir">
+  <id value="8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+  <meta>
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Encounter|1.0.1" />
+  </meta>
+  <status value="finished" />
+  <class>
+    <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
+    <version value="2.0.0" />
+    <code value="AMB" />
+    <display value="ambulatory" />
+  </class>
+  <type>
+    <coding>
+      <system value="http://snomed.info/sct" />
+      <version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+      <code value="243788004:370131001=410602000" />
+      <display value="Child examination (procedure) : Recipient category (attribute) = Preschool child (person)">
+        <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+          <extension url="content">
+            <valueString value="U9" />
+          </extension>
+        </extension>
+      </display>
+    </coding>
+  </type>
+  <subject>
+    <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+  </subject>
+  <participant>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType" />
+        <version value="2.0.0" />
+        <code value="PPRF" />
+        <display value="primary performer" />
+      </coding>
+    </type>
+    <individual>
+      <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+    </individual>
+  </participant>
+  <period>
+    <start value="2020-07-07" />
+  </period>
+</Encounter>

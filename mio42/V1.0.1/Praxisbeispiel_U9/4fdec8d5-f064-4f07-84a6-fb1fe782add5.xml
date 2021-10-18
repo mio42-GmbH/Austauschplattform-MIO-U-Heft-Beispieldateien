@@ -1,0 +1,58 @@
+<CarePlan xmlns="http://hl7.org/fhir">
+  <id value="4fdec8d5-f064-4f07-84a6-fb1fe782add5" />
+  <meta>
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Care_Plan_U2_U9_Result|1.0.1" />
+  </meta>
+  <status value="completed" />
+  <intent value="proposal" />
+  <subject>
+    <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+  </subject>
+  <encounter>
+    <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+  </encounter>
+  <created value="2020-07-07" />
+  <author>
+    <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+  </author>
+  <activity>
+    <detail>
+      <code>
+        <coding>
+          <system value="http://snomed.info/sct" />
+          <version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+          <code value="271906008" />
+          <display value="Examination finding (observable entity)">
+            <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+              <extension url="content">
+                <valueString value="Auffälligkeiten zur Beobachtung:" />
+              </extension>
+            </extension>
+          </display>
+        </coding>
+      </code>
+      <status value="scheduled" />
+      <description value="Auffälligkeiten zur Beobachtung" />
+    </detail>
+  </activity>
+  <activity>
+    <detail>
+      <code>
+        <coding>
+          <system value="http://snomed.info/sct" />
+          <version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+          <code value="722448004" />
+          <display value="Treatment plan report (record artifact)">
+            <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+              <extension url="content">
+                <valueString value="weitere Maßnahmen vereinbart:" />
+              </extension>
+            </extension>
+          </display>
+        </coding>
+      </code>
+      <status value="scheduled" />
+      <description value="weitere Maßnahmen vereinbart" />
+    </detail>
+  </activity>
+</CarePlan>

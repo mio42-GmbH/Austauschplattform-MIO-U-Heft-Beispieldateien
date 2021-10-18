@@ -1,0 +1,222 @@
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="f5f9a659-ac59-4c07-b041-58203081cdf6" />
+  <meta>
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_U9|1.0.1" />
+  </meta>
+  <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+    <valueString value="U9 Elterninformation zur Untersuchung vom 60. bis zum 64. Lebensmonat Ihr Kind ist jetzt etwa fünf Jahre alt. Viele Kinder haben in diesem Alter einen großen Bewegungsdrang, klettern gern und stellen viele Fragen. In der Regel entwickeln die Kinder in Rollenspielen mit anderen viel Fantasie und haben Freude am Malen mit Buntstiften oder am Schneiden mit einer Schere. Sollte Ihr Kind noch nicht alle Laute fehlerfrei aussprechen, bitten Sie Ihre Ärztin oder Ihren Arzt, darauf besonders zu achten und Sie dazu zu beraten. Die Ärztin oder der Arzt achtet bei der U9 wieder besonders auf Entwicklungsauffälligkeiten. Ihr Kind wird körperlich untersucht. Zum Erkennen von Sehstörungen werden wieder Sehtests durchgeführt. Die Ärztin oder der Arzt testet, wie beweglich und wie geschickt Ihr Kind ist und wie gut es spricht. Außerdem möchte die Ärztin oder der Arzt wissen, woran Ihr Kind Interesse und Freude hat oder wovor es sich möglicherweise ängstigt. Ihr Kind kommt bald in die Schule. Damit die Ärztin oder der Arzt Sie gegebenenfalls rechtzeitig unterstützen kann, sind diese Informationen wichtig. Außerdem interessiert sich Ihre Ärztin oder Ihr Arzt für den Kontakt zwischen Ihnen und Ihrem Kind. Ihre Ärztin oder Ihr Arzt berät Sie zu den laut Impfkalender empfohlenen Schutzimpfungen. Zudem spricht die Ärztin oder der Arzt mit Ihnen über Themen wie die Ernährung und Bewegung Ihres Kindes, Maßnahmen zur Unfallverhütung, die Förderung der Sprachentwicklung und den verantwortungsbewussten Gebrauch von Medien (z. B. TV, Spielekonsolen, Internet und Ähnlichem) im Alltag Ihres Kindes. Sie werden nochmals auf eine Kariesprophylaxe mittels Fluorid aufmerksam gemacht. Ihre Ärztin oder Ihr Arzt verweist Sie zur zahnärztlichen Früherkennungsuntersuchung." />
+  </extension>
+  <status value="final" />
+  <type>
+    <coding>
+      <system value="http://snomed.info/sct" />
+      <version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+      <code value="243788004:370131001=410602000" />
+      <display value="Child examination (procedure) : Recipient category (attribute) = Preschool child (person)" />
+    </coding>
+  </type>
+  <category>
+    <coding>
+      <system value="http://snomed.info/sct" />
+      <version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+      <code value="243788004" />
+      <display value="Child examination (procedure)" />
+    </coding>
+  </category>
+  <subject>
+    <reference value="urn:uuid:3e6825d8-a88e-48d8-8a4b-97014beae651" />
+  </subject>
+  <encounter>
+    <reference value="urn:uuid:8c4a5fe1-a88c-4aa0-9bdf-6bde932ce1dd" />
+  </encounter>
+  <date value="2020-07-07" />
+  <author>
+    <reference value="urn:uuid:e27f5ba9-7b10-4055-a355-c9fd27da69b1" />
+  </author>
+  <title value="U9" />
+  <!-- U9 - Aktuelle Anamnese des Kindes -->
+  <section>
+    <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+      <valueString value="Zutreffendes bitte ankreuzen!" />
+    </extension>
+    <title value="Aktuelle Anamnese des Kindes" />
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct" />
+        <version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+        <code value="423374008" />
+        <display value="Review of systems section (record artifact)" />
+      </coding>
+    </code>
+    <text>
+      <status value="generated" />
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Aktuelle Anamnese des Kindes</p>
+      </div>
+    </text>
+  </section>
+  <!-- U9 - Sozialanamnese -->
+  <section>
+    <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+      <valueString value="Zutreffendes bitte ankreuzen!" />
+    </extension>
+    <title value="Sozialanamnese" />
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct" />
+        <version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+        <code value="281575007" />
+        <display value="Family social history (situation)" />
+      </coding>
+    </code>
+    <text>
+      <status value="generated" />
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Sozialanamnese</p>
+      </div>
+    </text>
+  </section>
+  <!-- U9 - Untersuchung -->
+  <section>
+    <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+      <valueString value="Nur Auffälligkeiten ankreuzen!" />
+    </extension>
+    <title value="Körperliche Untersuchung" />
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct" />
+        <version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+        <code value="425044008" />
+        <display value="Physical exam section (record artifact)" />
+      </coding>
+    </code>
+    <text>
+      <status value="generated" />
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Körperliche Untersuchung</p>
+      </div>
+    </text>
+    <entry>
+      <reference value="urn:uuid:ecc113b6-b496-4011-a811-38976523be38" />
+    </entry>
+  </section>
+  <!-- Beratung -->
+  <section>
+    <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+      <valueString value="Bei erweitertem Beratungsbedarf bitte ankreuzen!" />
+    </extension>
+    <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+      <valueString value="Beratung vor allem zu folgenden Themen:" />
+    </extension>
+    <title value="Beratung" />
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct" />
+        <version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+        <code value="409066002" />
+        <display value="Education, guidance and counseling (procedure)" />
+      </coding>
+    </code>
+    <text>
+      <status value="generated" />
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Beratung</p>
+      </div>
+    </text>
+    <entry>
+      <reference value="urn:uuid:0d7c59cc-f618-4665-a6e6-c6d43892481b" />
+    </entry>
+    <entry>
+      <reference value="urn:uuid:83db1a03-dc34-46de-a095-ab8751029842" />
+    </entry>
+    <entry>
+      <reference value="urn:uuid:3d22dd12-37b9-4852-a4cd-f11392429be1" />
+    </entry>
+    <entry>
+      <reference value="urn:uuid:92122018-fbf2-4106-a71b-11a9b22c7719" />
+    </entry>
+  </section>
+  <!-- Ergebnisse -->
+  <section>
+    <title value="Ergebnisse" />
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct" />
+        <version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+        <code value="423100009" />
+        <display value="Results section (record artifact)" />
+      </coding>
+    </code>
+    <text>
+      <status value="generated" />
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Ergebnisse</p>
+      </div>
+    </text>
+    <!-- No Abnormality Detected -->
+    <entry>
+      <reference value="urn:uuid:b0e9ca94-2eda-42ac-bf63-c6a5c5adc5d2" />
+    </entry>
+    <!-- Age Appropriate Development -->
+    <entry>
+      <reference value="urn:uuid:1623a07b-69ce-4128-8314-3756cbeb9b18" />
+    </entry>
+    <!-- Body Measures -->
+    <entry>
+      <reference value="urn:uuid:c6355471-8fc8-4505-a540-840cd0ad5237" />
+    </entry>
+    <!-- Care Plan -->
+    <entry>
+      <reference value="urn:uuid:4fdec8d5-f064-4f07-84a6-fb1fe782add5" />
+    </entry>
+    <!-- Dental Referral -->
+    <entry>
+      <reference value="urn:uuid:337e75a4-f32c-4730-8839-ac3f79a3ffff" />
+    </entry>
+    <!-- Observation Comments -->
+    <entry>
+      <reference value="urn:uuid:18865878-8b13-4f06-8a31-ee55f5ce36de" />
+    </entry>
+    <!-- Next Immunization Appointment -->
+    <entry>
+      <reference value="urn:uuid:5e888a54-c7df-4e76-8cc4-e1c3eecb15a2" />
+    </entry>
+    <section>
+      <title value="Prüfung, Aufklärung und ggf. Veranlassung der Durchführung von:" />
+      <code>
+        <coding>
+          <system value="http://snomed.info/sct" />
+          <version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+          <code value="722448004" />
+          <display value="Treatment plan report (record artifact)" />
+        </coding>
+      </code>
+      <!-- Status der Immunisierung -->
+      <entry>
+        <reference value="urn:uuid:60548512-c957-4a47-b832-578ea8938975" />
+      </entry>
+    </section>
+  </section>
+  <!-- Orientierende Beurteilung der Entwicklung-->
+  <section>
+    <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+      <valueString value="Nur ankreuzen, wenn die Items NICHT erfüllt werden!" />
+    </extension>
+    
+    <title value="Orientierende Beurteilung der Entwicklung" />
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct" />
+        <version value="http://snomed.info/sct/900000000000207008/version/20210131" />
+        <code value="406207000" />
+        <display value="Child development by age (observable entity)" />
+      </coding>
+    </code>
+    <text>
+      <status value="generated" />
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Orientierende Beurteilung der Entwicklung</p>
+      </div>
+    </text>
+  </section>
+</Composition>
