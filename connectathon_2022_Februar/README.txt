@@ -1,0 +1,1 @@
+Erstellte Beispieldateien im Rahmen des 2. Connectathons am 08.10.2022 und 10.02.2022
