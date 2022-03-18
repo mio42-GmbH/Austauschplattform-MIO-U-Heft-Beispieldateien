@@ -1,1 +1,0 @@
-Erstellte Beispieldateien von CGM
