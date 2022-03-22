@@ -1,0 +1,3760 @@
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="1.2.276.0.58.655041.311537432707602494190392201607583392040"/>
+  <meta>
+    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Bundle|1.0.1"/>
+  </meta>
+  <identifier>
+    <system value="urn:ietf:rfc:3936"/>
+    <value value="urn:uuid:1.2.276.0.58.655041.311537432707602494190392201607583392040"/>
+  </identifier>
+  <type value="document"/>
+  <timestamp value="2022-03-17T08:49:08Z"/>
+  <entry>
+    <fullUrl value="urn:uuid:f25f3472-816b-47e5-a27f-b70b0e174917"/>
+    <resource>
+      <Composition>
+        <id value="f25f3472-816b-47e5-a27f-b70b0e174917"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Composition_U2|1.0.1"/>
+        </meta>
+        <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+          <valueString value="U2 Elterninformation zur Untersuchung vom 3. bis zum 10. Lebenstag Ihr Baby ist jetzt einige Tage alt. Wenn Sie in der Klinik sind, wird die zweite Untersuchung, die U2, dort stattfinden. Wenn Sie zu Hause sind, vereinbaren Sie so früh wie möglich einen Untersuchungstermin bei der Ärztin oder dem Arzt, die oder der Ihr Baby betreuen soll. Die U2 soll drei bis spätestens zehn Tage nach der Geburt stattfinden. Falls die Tests auf kritische angeborene Herzfehler, angeborene Stoffwechselstörungen und/oder Mukoviszidose sowie der Neugeborenen-Hörtest noch nicht durchgeführt wurden, sollten sie umgehend erfolgen, da es für einige Erkrankungen wichtig ist, dass die Diagnose schnell gestellt werden kann. Durch eine eingehende körperliche Untersuchung Ihres Babys sollen bei der U2 angeborene Erkrankungen und Fehlbildungen (z. B. Fehlbildungen des Herzens) erkannt und lebensbedrohliche Komplikationen vermieden werden. Hierzu gehört auch das Erkennen einer behandlungsbedürftigen Gelbsucht. Bei dieser und bei allen weiteren Untersuchungen wird Ihr Baby gemessen und gewogen. Es wird besonders geachtet auf: • die Haut • die Sinnesorgane • die Brust- und Bauchorgane • die Geschlechtsorgane • den Kopf (Mund, Nase, Augen, Ohren) • das Skelettsystem mit Muskeln und Nerven. Die Ärztin oder der Arzt bespricht mit Ihnen, was für die gesunde Entwicklung Ihres Babys wichtig ist. Sie erhalten Informationen zu regionalen Unterstützungsangeboten (z. B. Eltern-Kind-Hilfen, Frühe Hilfen). Bei dieser Untersuchung erhält Ihr Baby nochmals Vitamin K, um Blutungen vorzubeugen. Außerdem werden Sie über Vitamin D zur Vorbeugung der Knochenerkrankung Rachitis und über Fluorid beraten, das für die spätere Zahnhärtung wichtig ist. Gegebenenfalls werden diese Ihrem Baby verschrieben. Außerdem werden Sie zu den Themen Stillen und Ernährung beraten sowie über Maßnahmen, die das Risiko eines plötzlichen Kindstodes vermindern."/>
+        </extension>
+        <status value="final"/>
+        <type>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="170107008"/>
+            <display value="Child examination - 10 days (procedure)"/>
+          </coding>
+        </type>
+        <category>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="243788004"/>
+            <display value="Child examination (procedure)"/>
+          </coding>
+        </category>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <date value="2022-03-17T08:49:08Z"/>
+        <author>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </author>
+        <author>
+          <reference value="urn:uuid:d4199c49-6fd9-4a0d-96b1-465c2f47dca2"/>
+        </author>
+        <title value="U2"/>
+        <section>
+          <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+            <valueString value="Zutreffendes bitte ankreuzen!"/>
+          </extension>
+          <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+            <valueString value="Schwangerschafts- und Geburtsanamnese: Erhebung und Dokumentation in der U1 prüfen und ggf. nachtragen."/>
+          </extension>
+          <title value="Aktuelle Anamnese des Kindes"/>
+          <code>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+              <code value="423374008"/>
+              <display value="Review of systems section (record artifact)"/>
+            </coding>
+          </code>
+          <text>
+            <status value="generated"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+              <p>Aktuelle Anamnese des Kindes</p>
+            </div>
+          </text>
+          <entry>
+            <reference value="urn:uuid:6238e262-e0c6-4d98-a261-d913d5d2cfe9"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:c750d08f-4390-4e98-aef7-b5d75cd4b444"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:f998c56d-a125-4c35-a76f-5ae8ba742d02"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:7c912f2a-f66b-4407-93b9-fd52d220001b"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:90097c35-e78a-4f8a-bf50-9c4907346bcc"/>
+          </entry>
+        </section>
+        <section>
+          <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+            <valueString value="Zutreffendes bitte ankreuzen!"/>
+          </extension>
+          <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+            <valueString value="Schwangerschafts- und Geburtsanamnese: Erhebung und Dokumentation in der U1 prüfen und ggf. nachtragen."/>
+          </extension>
+          <title value="Familienanamnese"/>
+          <code>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+              <code value="422432008"/>
+              <display value="Family history section (record artifact)"/>
+            </coding>
+          </code>
+          <text>
+            <status value="generated"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+              <p>Familienanamnese</p>
+            </div>
+          </text>
+          <entry>
+            <reference value="urn:uuid:a3f3727d-b2bf-4180-a248-8a08414cced2"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:2b2652ed-e772-476d-9498-350d97b40488"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:c1953bcb-7560-4cc8-8869-8f695f1278e7"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:67e9439d-bf0c-436a-b070-67fb39b5c012"/>
+          </entry>
+        </section>
+        <section>
+          <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+            <valueString value="Zutreffendes bitte ankreuzen!"/>
+          </extension>
+          <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+            <valueString value="Schwangerschafts- und Geburtsanamnese: Erhebung und Dokumentation in der U1 prüfen und ggf. nachtragen."/>
+          </extension>
+          <title value="Sozialanamnese"/>
+          <code>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+              <code value="281575007"/>
+              <display value="Family social history (situation)"/>
+            </coding>
+          </code>
+          <text>
+            <status value="generated"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+              <p>Sozialanamnese</p>
+            </div>
+          </text>
+          <entry>
+            <reference value="urn:uuid:5d46cc0d-f7f7-4de9-9142-00f3de8fa1eb"/>
+          </entry>
+        </section>
+        <section>
+          <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+            <valueString value="Nur Auffälligkeiten ankreuzen!"/>
+          </extension>
+          <title value="Körperliche Untersuchung"/>
+          <code>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+              <code value="425044008"/>
+              <display value="Physical exam section (record artifact)"/>
+            </coding>
+          </code>
+          <text>
+            <status value="generated"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+              <p>Körperliche Untersuchung</p>
+            </div>
+          </text>
+          <entry>
+            <reference value="urn:uuid:6b853b00-6e0f-4acf-af64-1b97e6f405de"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:b444a982-5e3d-4bd4-a80b-b3233d178475"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:e5a32286-62e1-42c3-8624-7ed60913b1cd"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:82fe5a55-4f33-4982-872e-0b01bb04ca9b"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:02c71a3f-1117-457a-abc1-97045ca9956b"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:352a9dae-595f-4ab8-9453-ae964ece6c9a"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:c381047f-8394-4734-b6ae-618946886c26"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:da6c0551-145f-4744-ad96-5d339faa55da"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:2f3009be-116c-4c87-9bc0-32f5004e7c5d"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:5301fda1-67c8-4d6a-8d16-927d4cb58f9a"/>
+          </entry>
+        </section>
+        <section>
+          <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Instruction">
+            <valueString value="Bei erweitertem Beratungsbedarf bitte ankreuzen!"/>
+          </extension>
+          <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+            <valueString value="Beratung vor allem zu folgenden Themen:"/>
+          </extension>
+          <title value="Beratung"/>
+          <code>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+              <code value="409066002"/>
+              <display value="Education, guidance and counseling (procedure)"/>
+            </coding>
+          </code>
+          <text>
+            <status value="generated"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+              <p>Beratung</p>
+            </div>
+          </text>
+          <entry>
+            <reference value="urn:uuid:efd72e4c-c68f-4b06-8bd3-743cbe4e580e"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:199d3710-69be-4fd9-acc2-aeeadc0ef9a5"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:5ea13a4a-ed90-4af2-8765-69bb6d633886"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:7264326e-e1fc-4cc0-a1e4-e6e99c7ee89f"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:1a133a82-c9e1-4320-972f-24cf759b382e"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:781f75e9-7c3a-4f5d-b787-0adce85704e2"/>
+          </entry>
+        </section>
+        <section>
+          <title value="Ergebnisse"/>
+          <code>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+              <code value="423100009"/>
+              <display value="Results section (record artifact)"/>
+            </coding>
+          </code>
+          <text>
+            <status value="generated"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+              <p>Ergebnisse</p>
+            </div>
+          </text>
+          <entry>
+            <reference value="urn:uuid:e5b70150-a1b1-40d4-a675-419e2ce16892"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:41e3fa67-46de-471b-a188-1c05f71f9a9f"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:79462dca-8bd7-4b87-b031-89a76cbc267c"/>
+          </entry>
+          <entry>
+            <reference value="urn:uuid:4f9aa984-e1a7-4279-ba4f-deba68698a99"/>
+          </entry>
+          <section>
+            <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+              <valueString value="- Pulsoxymetrie-Screening - Erweitertes Neugeborenen-Screening - Screening auf Mukoviszidose - Neugeborenen-Hörscreening - Screening auf Hüftgelenksdysplasie und -luxation (nur bei Risikofaktoren)"/>
+            </extension>
+            <title value="Prüfung, Aufklärung und ggf. Veranlassung der Durchführung von:"/>
+            <entry>
+              <reference value="urn:uuid:2a339d39-1358-40a1-92ef-da427f6fb208"/>
+            </entry>
+          </section>
+        </section>
+      </Composition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:4f9aa984-e1a7-4279-ba4f-deba68698a99"/>
+    <resource>
+      <CarePlan>
+        <id value="4f9aa984-e1a7-4279-ba4f-deba68698a99"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Care_Plan_U2_U9_Result|1.0.1"/>
+        </meta>
+        <status value="completed"/>
+        <intent value="proposal"/>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <created value="2022-03-17T08:49:08Z"/>
+        <author>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </author>
+        <activity>
+          <detail>
+            <code>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+                <code value="722448004"/>
+                <display value="Results section (record artifact)">
+                  <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                    <extension url="content">
+                      <valueString value="weitere Maßnahmen vereinbart:"/>
+                    </extension>
+                  </extension>
+                </display>
+              </coding>
+            </code>
+            <status value="completed"/>
+            <description value="Bestimmmung direktes / indirektes Bilirubin im Blut, Blutbild, Kontrolluntersuchung, ggf. Phototherapie."/>
+          </detail>
+        </activity>
+        <activity>
+          <detail>
+            <code>
+              <coding>
+                <system value="http://snomed.info/sct"/>
+                <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+                <code value="271906008"/>
+                <display value="Results section (record artifact)">
+                  <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                    <extension url="content">
+                      <valueString value="Auffälligkeiten zur Beobachtung:"/>
+                    </extension>
+                  </extension>
+                </display>
+              </coding>
+            </code>
+            <status value="completed"/>
+            <description value="Ikterus: transkutane Bilirubinmessung: 18,8 mg/dl"/>
+          </detail>
+        </activity>
+      </CarePlan>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:6b853b00-6e0f-4acf-af64-1b97e6f405de"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="6b853b00-6e0f-4acf-af64-1b97e6f405de"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U2_Physical_Exam_Skin|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="364528001"/>
+            <display value="Physical exam section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Haut"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <result>
+          <reference value="urn:uuid:59431542-c167-4e5b-8e1d-25d22fe419d7"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:881e475f-0846-48e9-959d-3d1a6305c726"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:c2d53ba6-79fd-4cb4-835b-31aaedf8eae9"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:f040c9b5-31bf-4261-a8c4-7fdbed75141c"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:c5378d1e-d1d2-47eb-a430-b64f80854dfb"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:56bdc289-ac3a-4bf2-a243-46515c3d7153"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:8765ccfd-2456-4959-9126-ed8eef67f595"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:d3f3b110-6c6c-4dc2-b1db-0ffe9a24f1cd"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:b444a982-5e3d-4bd4-a80b-b3233d178475"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="b444a982-5e3d-4bd4-a80b-b3233d178475"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U2_U4_Physical_Exam_Chest_Lung_Respiratory_Tract|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="364048003"/>
+            <display value="Physical exam section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Thorax, Lunge, Atemwege"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <result>
+          <reference value="urn:uuid:4332bfe0-52d8-4ba7-9834-1fd005e8df52"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:ff3e546e-94a8-44b4-aea5-1c187a510241"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:2c16b73b-e9be-487c-9b6f-51df5a3c4bca"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:98a0d231-9038-43aa-9a81-dc106030c46e"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:4999661e-0f16-474d-b68e-664ca31dd7b5"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:fc5b99af-9cc2-4c1e-917e-e882fa07c146"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:e5a32286-62e1-42c3-8624-7ed60913b1cd"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="e5a32286-62e1-42c3-8624-7ed60913b1cd"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U2_U3_Physical_Exam_Abdomen_Genitals|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="364446009"/>
+            <display value="Physical exam section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Abdomen, Genitale (inkl. Analregion)"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <result>
+          <reference value="urn:uuid:5f02d96c-8d0c-4044-8044-8ca02f0ca1f2"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:b5ed1e5a-d632-4d7a-9449-49be9ba9c65e"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:002c50c0-a68f-4e1a-8c8a-2be99b9ab77b"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:2a235c9e-dff1-4aa6-a0be-4f5e796f66f5"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:82fe5a55-4f33-4982-872e-0b01bb04ca9b"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="82fe5a55-4f33-4982-872e-0b01bb04ca9b"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U2_U6_Physical_Exam_Heart_Blood_Circulation|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="364066008"/>
+            <display value="Physical exam section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Herz, Kreislauf"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <result>
+          <reference value="urn:uuid:6e279e74-a059-46fa-aae7-20465770cda8"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:05756331-02b7-49fd-ad63-5e8bf851f773"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:2d8825d8-ea1b-4d35-a8a5-900206a2c945"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:0177a248-571c-4a1a-bdc0-5da06ea055ba"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:ad844dc1-be6c-4fc5-9a02-8ca5b4928286"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:02c71a3f-1117-457a-abc1-97045ca9956b"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="02c71a3f-1117-457a-abc1-97045ca9956b"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U2_U3_Physical_Exam_Ears|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="363991003"/>
+            <display value="Physical exam section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Ohren"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <result>
+          <reference value="urn:uuid:74a18f4d-5b17-4266-8ce1-d88ff2c11695"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:352a9dae-595f-4ab8-9453-ae964ece6c9a"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="352a9dae-595f-4ab8-9453-ae964ece6c9a"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U2_Physical_Exam_Musculoskeletal_System|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="106029005"/>
+            <display value="Physical exam section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Bewegungsapparat (Knochen, Muskeln, Nerven)"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <result>
+          <reference value="urn:uuid:cc7bd2c3-c773-4ec5-8a7d-7a1ef41a782f"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:3145a249-6647-49d5-9db7-3dd2b8123223"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:0284d3bb-2af6-4d47-b0ca-e8d860e841e3"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:286b8be1-2cc6-42d7-8c49-74350b17b24f"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:9e80bdbc-c334-4aa9-9a49-467e7b786b25"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:19194a6f-4c10-4d7a-b819-d1fd5dee2ea8"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:e6d88d01-4dcb-4675-a02b-f04548c6243d"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:0f7cebfa-4a75-4dca-939f-17abd690079e"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:0d299c24-c5ae-48d2-8450-dff4dec8ee4d"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:de2d0da0-0f3a-40f0-9e9a-4e0bfe67d397"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:c381047f-8394-4734-b6ae-618946886c26"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="c381047f-8394-4734-b6ae-618946886c26"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U2_Physical_Exam_Head|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="364404000"/>
+            <display value="Physical exam section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Kopf"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <result>
+          <reference value="urn:uuid:1df3ad48-b1a4-43b9-af79-619aa3cab4ab"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:e6f7741a-6414-422d-88d2-6ec736bf5c81"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:575a038c-5e34-4426-afd1-8a617cf8e48a"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:50376ec4-5aaa-40aa-9d93-061d90a1248e"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:368c15cb-0479-40ba-b21c-8ee5c8b33d33"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:bc94f4da-5b51-44d1-8ea3-84675f3b2e25"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:da6c0551-145f-4744-ad96-5d339faa55da"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="da6c0551-145f-4744-ad96-5d339faa55da"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U2_Physical_Exam_Mouth_Nose|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="271914002+364111005"/>
+            <display value="Physical exam section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Mundhöhle, Kiefer, Nase"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <result>
+          <reference value="urn:uuid:17b1b95a-14f2-421d-b895-034314625ae3"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:8d1675bf-96b1-4426-9b49-beb99ec39c90"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:8829caf1-f58a-4c10-956f-573ec9b64413"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:614b01a9-b6a0-47c7-8ae2-f3d4fc8cfd1f"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:cfdf169f-f0aa-48d8-a65d-6e4f72d22558"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:2f3009be-116c-4c87-9bc0-32f5004e7c5d"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="2f3009be-116c-4c87-9bc0-32f5004e7c5d"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U2_U3_Physical_Exam_Eyes|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="414174009"/>
+            <display value="Physical exam section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Augen"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <result>
+          <reference value="urn:uuid:26346dca-7827-403a-854d-e8ae9bab1b28"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:aed664b9-f306-47f9-8956-2ded36ea180a"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:71111849-59ee-4763-94b3-a26ca06fda94"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:41e3fa67-46de-471b-a188-1c05f71f9a9f"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="41e3fa67-46de-471b-a188-1c05f71f9a9f"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Diagnostic_Report_U2_U6_Body_Measures|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="248326004"/>
+            <display value="Results section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Körpermaße:"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+          <coding>
+            <system value="http://loinc.org"/>
+            <version value="2.69"/>
+            <code value="29275-5"/>
+            <display value="Results section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Körpermaße:"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <result>
+          <reference value="urn:uuid:e615c5c3-3e62-4881-83b3-7ff88647d0e2"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:ecbb7b9e-3c3a-4329-a077-3710028fa204"/>
+        </result>
+        <result>
+          <reference value="urn:uuid:88802dee-143c-4da3-b64b-83c1c89cdd50"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+    <resource>
+      <Encounter>
+        <id value="d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Encounter|1.0.1"/>
+        </meta>
+        <status value="finished"/>
+        <class>
+          <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+          <version value="2.0.0"/>
+          <code value="AMB"/>
+          <display value="ambulatory"/>
+        </class>
+        <type>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="170107008"/>
+            <display value="Child examination - 10 days (procedure)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="U2 3.-10. Lebenstag"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </type>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <participant>
+          <type>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+              <version value="2.0.0"/>
+              <code value="PPRF"/>
+              <display value="primary performer"/>
+            </coding>
+          </type>
+          <individual>
+            <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+          </individual>
+        </participant>
+        <period>
+          <start value="2022-03-17T08:49:08Z"/>
+        </period>
+        <serviceProvider>
+          <reference value="urn:uuid:d4199c49-6fd9-4a0d-96b1-465c2f47dca2"/>
+        </serviceProvider>
+      </Encounter>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:2a339d39-1358-40a1-92ef-da427f6fb208"/>
+    <resource>
+      <MedicationStatement>
+        <id value="2a339d39-1358-40a1-92ef-da427f6fb208"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Medication_Statement_Vitamine_K_Prophylaxis|1.0.1"/>
+        </meta>
+        <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_MIO_CMR_Note">
+          <valueString value="Vitamin-K-Prophylaxe gegeben:"/>
+        </extension>
+        <status value="completed"/>
+        <medicationCodeableConcept>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="66656000"/>
+            <display value="Results section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Vitamin-K"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </medicationCodeableConcept>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <context>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </context>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <dosage>
+          <route>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+              <code value="26643006"/>
+              <display value="Results section (record artifact)">
+                <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                  <extension url="content">
+                    <valueString value="oral"/>
+                  </extension>
+                </extension>
+              </display>
+            </coding>
+          </route>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="2"/>
+              <unit value="mg"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="mg"/>
+            </doseQuantity>
+          </doseAndRate>
+        </dosage>
+      </MedicationStatement>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:6238e262-e0c6-4d98-a261-d913d5d2cfe9"/>
+    <resource>
+      <Observation>
+        <id value="6238e262-e0c6-4d98-a261-d913d5d2cfe9"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Current_Child_History|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="715949008"/>
+            <display value="Serious physical health problem (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="schwerwiegende Erkrankungen seit der letzten Untersuchung, Operationen"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:c750d08f-4390-4e98-aef7-b5d75cd4b444"/>
+    <resource>
+      <Observation>
+        <id value="c750d08f-4390-4e98-aef7-b5d75cd4b444"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Current_Child_History|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="399122003"/>
+            <display value="Swallowing problem (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Schwierigkeiten beim Trinken, Schluckstörungen"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:f998c56d-a125-4c35-a76f-5ae8ba742d02"/>
+    <resource>
+      <Observation>
+        <id value="f998c56d-a125-4c35-a76f-5ae8ba742d02"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Current_Child_History|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="271863002"/>
+            <display value="Stool color abnormal (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Stuhlfarbe (mit Farbtafel erfragen)"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:7c912f2a-f66b-4407-93b9-fd52d220001b"/>
+    <resource>
+      <Observation>
+        <id value="7c912f2a-f66b-4407-93b9-fd52d220001b"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Current_Child_History|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="162214009"/>
+            <display value="Crying infant (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="auffälliges Schreien"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:90097c35-e78a-4f8a-bf50-9c4907346bcc"/>
+    <resource>
+      <Observation>
+        <id value="90097c35-e78a-4f8a-bf50-9c4907346bcc"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Current_Child_History|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="413350009:{408729009=410519009,408731000=410512000,408732007=410604004,246090004=52781008}"/>
+            <display value="Finding with explicit context (situation) : { Finding context (attribute) = At risk context (qualifier value), Temporal context (attribute) = Current or specified time (qualifier value), Subject relationship context (attribute) = Subject of record (person), Associated finding (attribute) = Congenital hip dysplasia (disorder) }">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Risikofaktoren für Hüftdysplasie"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:a3f3727d-b2bf-4180-a248-8a08414cced2"/>
+    <resource>
+      <Observation>
+        <id value="a3f3727d-b2bf-4180-a248-8a08414cced2"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Family_History|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="160346003"/>
+            <display value="Family history: Eye disorder (situation)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Augenerkrankungen (z. B. Strabismus, Amblyopie, erbliche Augenkrankheit)"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:2b2652ed-e772-476d-9498-350d97b40488"/>
+    <resource>
+      <Observation>
+        <id value="2b2652ed-e772-476d-9498-350d97b40488"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Family_History|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="160352002"/>
+            <display value="Family history: Ear disorder (situation)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="angeborene Hörstörungen oder Ohrfehlbildungen"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:c1953bcb-7560-4cc8-8869-8f695f1278e7"/>
+    <resource>
+      <Observation>
+        <id value="c1953bcb-7560-4cc8-8869-8f695f1278e7"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Family_History|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="737367001"/>
+            <display value="Family history of disorder of immune function (situation)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Immundefekte"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:67e9439d-bf0c-436a-b070-67fb39b5c012"/>
+    <resource>
+      <Observation>
+        <id value="67e9439d-bf0c-436a-b070-67fb39b5c012"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Family_History|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="700191004"/>
+            <display value="Family history of congenital hip dysplasia (situation)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Hüftdysplasie"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:5d46cc0d-f7f7-4de9-9142-00f3de8fa1eb"/>
+    <resource>
+      <Observation>
+        <id value="5d46cc0d-f7f7-4de9-9142-00f3de8fa1eb"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Social_History|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="281575007"/>
+            <display value="Family social history (situation)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="(unter Berücksichtigung der Schwangerschafts und Geburtsanamnese):"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:59431542-c167-4e5b-8e1d-25d22fe419d7"/>
+    <resource>
+      <Observation>
+        <id value="59431542-c167-4e5b-8e1d-25d22fe419d7"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Skin|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="267029006"/>
+            <display value="Pale - symptom (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="auffällige Blässe"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:881e475f-0846-48e9-959d-3d1a6305c726"/>
+    <resource>
+      <Observation>
+        <id value="881e475f-0846-48e9-959d-3d1a6305c726"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Skin|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="3415004"/>
+            <display value="Cyanosis (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Zyanose"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:c2d53ba6-79fd-4cb4-835b-31aaedf8eae9"/>
+    <resource>
+      <Observation>
+        <id value="c2d53ba6-79fd-4cb4-835b-31aaedf8eae9"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Skin|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="18165001"/>
+            <display value="Jaundice (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Ikterus"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:f040c9b5-31bf-4261-a8c4-7fdbed75141c"/>
+    <resource>
+      <Observation>
+        <id value="f040c9b5-31bf-4261-a8c4-7fdbed75141c"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Skin|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="400210000"/>
+            <display value="Hemangioma (disorder)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Hämangiome"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:c5378d1e-d1d2-47eb-a430-b64f80854dfb"/>
+    <resource>
+      <Observation>
+        <id value="c5378d1e-d1d2-47eb-a430-b64f80854dfb"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Skin|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="21119008"/>
+            <display value="Pigmented nevus, no International Classification of Diseases for Oncology subtype (morphologic abnormality)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Naevi und andere Pigmentanomalien"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:56bdc289-ac3a-4bf2-a243-46515c3d7153"/>
+    <resource>
+      <Observation>
+        <id value="56bdc289-ac3a-4bf2-a243-46515c3d7153"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Skin|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="267038008"/>
+            <display value="Edema (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Ödeme"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:8765ccfd-2456-4959-9126-ed8eef67f595"/>
+    <resource>
+      <Observation>
+        <id value="8765ccfd-2456-4959-9126-ed8eef67f595"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Skin|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="781645001"/>
+            <display value="Injury to skin caused by trauma (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Anhalt für Verletzungen (z.B. Hämatome, Petechien, Verbrennung, Narben)"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:d3f3b110-6c6c-4dc2-b1db-0ffe9a24f1cd"/>
+    <resource>
+      <Observation>
+        <id value="d3f3b110-6c6c-4dc2-b1db-0ffe9a24f1cd"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Skin|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="251839006"/>
+            <display value="Fluid balance finding (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Hydratationszustand"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:4332bfe0-52d8-4ba7-9834-1fd005e8df52"/>
+    <resource>
+      <Observation>
+        <id value="4332bfe0-52d8-4ba7-9834-1fd005e8df52"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U4_Physical_Exam_Chest_Lung_Respiratory_Tract|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="301272007"/>
+            <display value="Chest auscultation finding (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Auskultation"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:ff3e546e-94a8-44b4-aea5-1c187a510241"/>
+    <resource>
+      <Observation>
+        <id value="ff3e546e-94a8-44b4-aea5-1c187a510241"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U4_Physical_Exam_Chest_Lung_Respiratory_Tract|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="301273002"/>
+            <display value="Abnormal breath sounds (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Atemgeräusch"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:2c16b73b-e9be-487c-9b6f-51df5a3c4bca"/>
+    <resource>
+      <Observation>
+        <id value="2c16b73b-e9be-487c-9b6f-51df5a3c4bca"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U4_Physical_Exam_Chest_Lung_Respiratory_Tract|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="17077006"/>
+            <display value="Abnormal respiratory rate (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Atemfrequenz"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:98a0d231-9038-43aa-9a81-dc106030c46e"/>
+    <resource>
+      <Observation>
+        <id value="98a0d231-9038-43aa-9a81-dc106030c46e"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U4_Physical_Exam_Chest_Lung_Respiratory_Tract|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="67909005"/>
+            <display value="Chest wall retraction (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Einziehungen"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:4999661e-0f16-474d-b68e-664ca31dd7b5"/>
+    <resource>
+      <Observation>
+        <id value="4999661e-0f16-474d-b68e-664ca31dd7b5"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U4_Physical_Exam_Chest_Lung_Respiratory_Tract|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="298706004"/>
+            <display value="Finding of appearance of thorax (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Thoraxkonfiguration"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:fc5b99af-9cc2-4c1e-917e-e882fa07c146"/>
+    <resource>
+      <Observation>
+        <id value="fc5b99af-9cc2-4c1e-917e-e882fa07c146"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U4_Physical_Exam_Chest_Lung_Respiratory_Tract|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="298761006"/>
+            <display value="Finding of clavicle structure (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Schlüsselbeine"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:5f02d96c-8d0c-4044-8044-8ca02f0ca1f2"/>
+    <resource>
+      <Observation>
+        <id value="5f02d96c-8d0c-4044-8044-8ca02f0ca1f2"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U3_Physical_Exam_Abdomen_Genitals|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="822987005:{116676008=49755003,363698007=818987002}"/>
+            <display value="Finding of abdominopelvic segment of trunk (finding) : {Associated morphology (attribute)  = Developmental anomaly (morphologic abnormality) , Finding site (attribute) = Structure of abdominopelvic cavity (body structure) }">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Anomalien"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:b5ed1e5a-d632-4d7a-9449-49be9ba9c65e"/>
+    <resource>
+      <Observation>
+        <id value="b5ed1e5a-d632-4d7a-9449-49be9ba9c65e"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U3_Physical_Exam_Abdomen_Genitals|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="249537008"/>
+            <display value="Umbilicus finding (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Nabelveränderungen"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:002c50c0-a68f-4e1a-8c8a-2be99b9ab77b"/>
+    <resource>
+      <Observation>
+        <id value="002c50c0-a68f-4e1a-8c8a-2be99b9ab77b"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U3_Physical_Exam_Abdomen_Genitals|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="65476007:{363698007=10200004,363698007=78961009}"/>
+            <display value="Abnormal size (finding) : {Finding site (attribute) = Liver structure (body structure) , Finding site (attribute) = Splenic structure (body structure)}">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Leber- und Milzgröße"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:2a235c9e-dff1-4aa6-a0be-4f5e796f66f5"/>
+    <resource>
+      <Observation>
+        <id value="2a235c9e-dff1-4aa6-a0be-4f5e796f66f5"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U3_Physical_Exam_Abdomen_Genitals|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="128545000"/>
+            <display value="Hernia of abdominal wall (disorder)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Hernien"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:6e279e74-a059-46fa-aae7-20465770cda8"/>
+    <resource>
+      <Observation>
+        <id value="6e279e74-a059-46fa-aae7-20465770cda8"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U6_Physical_Exam_Heart_Blood_Circulation|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="361135004"/>
+            <display value="Abnormal cardiac rate (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Herzfrequenz"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:05756331-02b7-49fd-ad63-5e8bf851f773"/>
+    <resource>
+      <Observation>
+        <id value="05756331-02b7-49fd-ad63-5e8bf851f773"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U6_Physical_Exam_Heart_Blood_Circulation|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="698247007"/>
+            <display value="Cardiac arrhythmia (disorder)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Herzrhythmus"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:2d8825d8-ea1b-4d35-a8a5-900206a2c945"/>
+    <resource>
+      <Observation>
+        <id value="2d8825d8-ea1b-4d35-a8a5-900206a2c945"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U6_Physical_Exam_Heart_Blood_Circulation|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="123824001"/>
+            <display value="Heart sounds abnormal (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Herztöne"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:0177a248-571c-4a1a-bdc0-5da06ea055ba"/>
+    <resource>
+      <Observation>
+        <id value="0177a248-571c-4a1a-bdc0-5da06ea055ba"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U6_Physical_Exam_Heart_Blood_Circulation|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="88610006"/>
+            <display value="Heart murmur (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Herznebengeräusche"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:ad844dc1-be6c-4fc5-9a02-8ca5b4928286"/>
+    <resource>
+      <Observation>
+        <id value="ad844dc1-be6c-4fc5-9a02-8ca5b4928286"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U6_Physical_Exam_Heart_Blood_Circulation|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="50178004"/>
+            <display value="Abnormal femoral pulse (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Femoralispulse"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:74a18f4d-5b17-4266-8ce1-d88ff2c11695"/>
+    <resource>
+      <Observation>
+        <id value="74a18f4d-5b17-4266-8ce1-d88ff2c11695"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U3_Physical_Exam_Ears|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="282038006"/>
+            <display value="Congenital abnormality of external ear (disorder)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Fehlbildungen (z. B. Ohrfisteln, Anhängsel, Atresie)"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:cc7bd2c3-c773-4ec5-8a7d-7a1ef41a782f"/>
+    <resource>
+      <Observation>
+        <id value="cc7bd2c3-c773-4ec5-8a7d-7a1ef41a782f"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Musculoskeletal_System|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="422949007"/>
+            <display value="Musculoskeletal asymmetry (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Asymmetrien"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:3145a249-6647-49d5-9db7-3dd2b8123223"/>
+    <resource>
+      <Observation>
+        <id value="3145a249-6647-49d5-9db7-3dd2b8123223"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Musculoskeletal_System|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="43029002"/>
+            <display value="Abnormal posture (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Schiefhaltung"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:0284d3bb-2af6-4d47-b0ca-e8d860e841e3"/>
+    <resource>
+      <Observation>
+        <id value="0284d3bb-2af6-4d47-b0ca-e8d860e841e3"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Musculoskeletal_System|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="225606002"/>
+            <display value="Abnormal movement (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Spontanmotorik"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:286b8be1-2cc6-42d7-8c49-74350b17b24f"/>
+    <resource>
+      <Observation>
+        <id value="286b8be1-2cc6-42d7-8c49-74350b17b24f"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Musculoskeletal_System|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="366725004"/>
+            <display value="Finding of muscle tone (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Muskeltonus"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:9e80bdbc-c334-4aa9-9a49-467e7b786b25"/>
+    <resource>
+      <Observation>
+        <id value="9e80bdbc-c334-4aa9-9a49-467e7b786b25"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Musculoskeletal_System|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="8652009"/>
+            <display value="Opisthotonus (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Opisthotonus"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:19194a6f-4c10-4d7a-b819-d1fd5dee2ea8"/>
+    <resource>
+      <Observation>
+        <id value="19194a6f-4c10-4d7a-b819-d1fd5dee2ea8"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Musculoskeletal_System|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="298180004"/>
+            <display value="Finding of range of joint movement (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="passive Beweglichkeit der großen Gelenke"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:e6d88d01-4dcb-4675-a02b-f04548c6243d"/>
+    <resource>
+      <Observation>
+        <id value="e6d88d01-4dcb-4675-a02b-f04548c6243d"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Musculoskeletal_System|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="299742001+299743006"/>
+            <display value="Moro reflex absent (finding) + Moro reflex equivocal (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Moro-Reaktion"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:0f7cebfa-4a75-4dca-939f-17abd690079e"/>
+    <resource>
+      <Observation>
+        <id value="0f7cebfa-4a75-4dca-939f-17abd690079e"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Musculoskeletal_System|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="299796002"/>
+            <display value="Galant's reflex absent (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Galant-Reflex"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:0d299c24-c5ae-48d2-8450-dff4dec8ee4d"/>
+    <resource>
+      <Observation>
+        <id value="0d299c24-c5ae-48d2-8450-dff4dec8ee4d"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Musculoskeletal_System|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="299763004+299764005"/>
+            <display value="Stepping reflex absent (finding)+Stepping reflex equivocal (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Schreitautomatismus"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:de2d0da0-0f3a-40f0-9e9a-4e0bfe67d397"/>
+    <resource>
+      <Observation>
+        <id value="de2d0da0-0f3a-40f0-9e9a-4e0bfe67d397"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Musculoskeletal_System|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="404684003:116676008=72704001"/>
+            <display value="Clinical finding (finding) : Associated morphology (attribute) = Fracture (morphologic abnormality)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="klinische Frakturzeichen"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:1df3ad48-b1a4-43b9-af79-619aa3cab4ab"/>
+    <resource>
+      <Observation>
+        <id value="1df3ad48-b1a4-43b9-af79-619aa3cab4ab"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Head|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="111235007"/>
+            <display value="Musculoskeletal disorder of the neck (disorder)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Fehlhaltung"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:e6f7741a-6414-422d-88d2-6ec736bf5c81"/>
+    <resource>
+      <Observation>
+        <id value="e6f7741a-6414-422d-88d2-6ec736bf5c81"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Head|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="253978002"/>
+            <display value="Dysmorphic features (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Dysmorphiezeichen"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:575a038c-5e34-4426-afd1-8a617cf8e48a"/>
+    <resource>
+      <Observation>
+        <id value="575a038c-5e34-4426-afd1-8a617cf8e48a"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Head|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="248387005"/>
+            <display value="Cranial suture finding (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Schädelnähte"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:50376ec4-5aaa-40aa-9d93-061d90a1248e"/>
+    <resource>
+      <Observation>
+        <id value="50376ec4-5aaa-40aa-9d93-061d90a1248e"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Head|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="206200000"/>
+            <display value="Cephalhematoma due to birth trauma (disorder)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Kephalhämatom"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:368c15cb-0479-40ba-b21c-8ee5c8b33d33"/>
+    <resource>
+      <Observation>
+        <id value="368c15cb-0479-40ba-b21c-8ee5c8b33d33"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Head|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="366372002"/>
+            <display value="Finding of level of fontanelle (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Fontanellentonus"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:bc94f4da-5b51-44d1-8ea3-84675f3b2e25"/>
+    <resource>
+      <Observation>
+        <id value="bc94f4da-5b51-44d1-8ea3-84675f3b2e25"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Head|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="23149001:363698007=783207002"/>
+            <display value="Bone crepitus (finding) : Finding site (attribute) = Bone and/or joint structure of cranium (body structure)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Crepitatio capitis"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:17b1b95a-14f2-421d-b895-034314625ae3"/>
+    <resource>
+      <Observation>
+        <id value="17b1b95a-14f2-421d-b895-034314625ae3"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Mouth_Nose|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="300255008"/>
+            <display value="Oral cavity problem (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Auffälligkeiten der Schleimhaut und des Kieferkamms"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:8d1675bf-96b1-4426-9b49-beb99ec39c90"/>
+    <resource>
+      <Observation>
+        <id value="8d1675bf-96b1-4426-9b49-beb99ec39c90"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Mouth_Nose|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="449790007"/>
+            <display value="Orofacial cleft (disorder)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Kiefer- Gaumenanomalie"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:8829caf1-f58a-4c10-956f-573ec9b64413"/>
+    <resource>
+      <Observation>
+        <id value="8829caf1-f58a-4c10-956f-573ec9b64413"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Mouth_Nose|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="125593007"/>
+            <display value="Injury of face (disorder)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Verletzungszeichen"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:614b01a9-b6a0-47c7-8ae2-f3d4fc8cfd1f"/>
+    <resource>
+      <Observation>
+        <id value="614b01a9-b6a0-47c7-8ae2-f3d4fc8cfd1f"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Mouth_Nose|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="65476007:363698007=21974007"/>
+            <display value="Abnormal size (finding) : Finding site (attribute) = Tongue structure (body structure)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="abnorme Größe der Zunge"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:cfdf169f-f0aa-48d8-a65d-6e4f72d22558"/>
+    <resource>
+      <Observation>
+        <id value="cfdf169f-f0aa-48d8-a65d-6e4f72d22558"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_Physical_Exam_Mouth_Nose|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="232209000"/>
+            <display value="Nasal obstruction (disorder)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="behinderte Nasenatmung"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:26346dca-7827-403a-854d-e8ae9bab1b28"/>
+    <resource>
+      <Observation>
+        <id value="26346dca-7827-403a-854d-e8ae9bab1b28"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U3_Physical_Exam_Eyes|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="737269000"/>
+            <display value="Eye appearance abnormal (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Inspektion: morphologische Auffälligkeiten (z. B. Ptosis, Leukokorie, Bulbusgrößenauffälligkeiten, Kolobom)"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:aed664b9-f306-47f9-8956-2ded36ea180a"/>
+    <resource>
+      <Observation>
+        <id value="aed664b9-f306-47f9-8956-2ded36ea180a"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U3_Physical_Exam_Eyes|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="307699005"/>
+            <display value="Nystagmus present (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Inspektion: Nystagmus"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:71111849-59ee-4763-94b3-a26ca06fda94"/>
+    <resource>
+      <Observation>
+        <id value="71111849-59ee-4763-94b3-a26ca06fda94"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U3_Physical_Exam_Eyes|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="400964006"/>
+            <display value="Iris transillumination (finding)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Prüfung im durchfallenden Licht: Transilluminationsauffälligkeit bei Trübung der brechenden Medien"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueBoolean value="true"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:5301fda1-67c8-4d6a-8d16-927d4cb58f9a"/>
+    <resource>
+      <Observation>
+        <id value="5301fda1-67c8-4d6a-8d16-927d4cb58f9a"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_Physical_Exam_Parental_Assessment|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="401141001"/>
+            <display value="Physical exam section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Eltern sind unzufrieden mit der Entwicklung und dem Verhalten des Kindes, weil:"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueString value="Das Kind spricht nicht!"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:e5b70150-a1b1-40d4-a675-419e2ce16892"/>
+    <resource>
+      <Observation>
+        <id value="e5b70150-a1b1-40d4-a675-419e2ce16892"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U9_Relevant_History_Results|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="365854008"/>
+            <display value="Results section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Relevante anamnestische Ergebnisse:"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueString value="Abgleich der als hell angegebenen Stuhlfarbe mit Stuhlfarbentafel ergibt grenzwertig physiologische Stuhlfarbe."/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:e615c5c3-3e62-4881-83b3-7ff88647d0e2"/>
+    <resource>
+      <Observation>
+        <id value="e615c5c3-3e62-4881-83b3-7ff88647d0e2"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U9_Body_Height_Measure|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="248334005"/>
+            <display value="Results section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Körperlänge in cm"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+          <coding>
+            <system value="http://loinc.org"/>
+            <version value="2.69"/>
+            <code value="8302-2"/>
+            <display value="Results section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Körperlänge in cm"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueQuantity>
+          <value value="53"/>
+          <unit value="cm"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="cm"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:ecbb7b9e-3c3a-4329-a077-3710028fa204"/>
+    <resource>
+      <Observation>
+        <id value="ecbb7b9e-3c3a-4329-a077-3710028fa204"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_Head_Circumference|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="363812007"/>
+            <display value="Results section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Kopfumfang in cm"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+          <coding>
+            <system value="http://loinc.org"/>
+            <version value="2.69"/>
+            <code value="9843-4"/>
+            <display value="Results section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Kopfumfang in cm"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueQuantity>
+          <value value="35"/>
+          <unit value="cm"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="cm"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:88802dee-143c-4da3-b64b-83c1c89cdd50"/>
+    <resource>
+      <Observation>
+        <id value="88802dee-143c-4da3-b64b-83c1c89cdd50"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_U2_U6_Body_Weight|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="27113001"/>
+            <display value="Results section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Körpergewicht in g"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+          <coding>
+            <system value="http://loinc.org"/>
+            <version value="2.69"/>
+            <code value="29463-7"/>
+            <display value="Results section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Körpergewicht in g"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueQuantity>
+          <value value="3800"/>
+          <unit value="g"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="g"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:79462dca-8bd7-4b87-b031-89a76cbc267c"/>
+    <resource>
+      <Observation>
+        <id value="79462dca-8bd7-4b87-b031-89a76cbc267c"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Observation_Comments|1.0.1"/>
+        </meta>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="703852005"/>
+            <display value="Results section (record artifact)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Bemerkungen:"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <effectiveDateTime value="2022-03-17T08:49:08Z"/>
+        <performer>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </performer>
+        <valueString value="Beispiel für Observation_Comment"/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:d4199c49-6fd9-4a0d-96b1-465c2f47dca2"/>
+    <resource>
+      <Organization>
+        <id value="d4199c49-6fd9-4a0d-96b1-465c2f47dca2"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Organization|1.0.1"/>
+        </meta>
+        <identifier>
+          <use value="official"/>
+          <type>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+              <code value="BSNR"/>
+              <display value="Betriebsstättennummer"/>
+            </coding>
+          </type>
+          <system value="https://fhir.kbv.de/NamingSystem/KBV_NS_Base_BSNR"/>
+          <value value="241234601"/>
+        </identifier>
+        <name value="Praxis Annie More"/>
+        <telecom>
+          <system value="phone"/>
+          <value value="0211 / 1111111"/>
+        </telecom>
+        <telecom>
+          <system value="fax"/>
+          <value value="0211 / 2222222"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="AM@Testpraxis.de"/>
+        </telecom>
+        <address>
+          <type value="both"/>
+          <line value="Musterstr. 1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName">
+              <valueString value="Musterstr."/>
+            </extension>
+            <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
+              <valueString value="1"/>
+            </extension>
+          </line>
+          <city value="Düsseldorf"/>
+          <postalCode value="40474"/>
+          <country value="D"/>
+        </address>
+      </Organization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+    <resource>
+      <Patient>
+        <id value="8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Patient|1.0.1"/>
+        </meta>
+        <identifier>
+          <type>
+            <coding>
+              <system value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
+              <code value="GKV"/>
+              <display value="Gesetzliche Krankenversicherung"/>
+            </coding>
+          </type>
+          <system value="http://fhir.de/NamingSystem/gkv/kvid-10"/>
+          <value value="S040464113"/>
+        </identifier>
+        <name>
+          <use value="official"/>
+          <family value="Graf Freiherr von Schaumberg">
+            <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-name">
+              <valueString value="Schaumberg"/>
+            </extension>
+            <extension url="http://fhir.de/StructureDefinition/humanname-namenszusatz">
+              <valueString value="Graf Freiherr"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-prefix">
+              <valueString value="von"/>
+            </extension>
+          </family>
+          <given value="Karl-Friederich"/>
+        </name>
+        <birthDate value="2021-04-04"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+    <resource>
+      <Practitioner>
+        <id value="dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Practitioner|1.0.1"/>
+        </meta>
+        <identifier>
+          <type>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+              <code value="LANR"/>
+              <display value="Lifelong physician number"/>
+            </coding>
+          </type>
+          <system value="https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR"/>
+          <value value="838382201"/>
+        </identifier>
+        <name>
+          <use value="official"/>
+          <family value="More">
+            <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-name">
+              <valueString value="More"/>
+            </extension>
+          </family>
+          <given value="Annie"/>
+        </name>
+        <qualification>
+          <code>
+            <coding>
+              <system value="urn:oid:1.2.276.0.76.5.493"/>
+              <version value="1.0.1"/>
+              <code value="3"/>
+              <display value="Praktischer Arzt">
+                <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                  <extension url="content">
+                    <valueString value="Praktischer Arzt"/>
+                  </extension>
+                </extension>
+              </display>
+            </coding>
+          </code>
+        </qualification>
+      </Practitioner>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:efd72e4c-c68f-4b06-8bd3-743cbe4e580e"/>
+    <resource>
+      <Procedure>
+        <id value="efd72e4c-c68f-4b06-8bd3-743cbe4e580e"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_U2_Consultation|1.0.1"/>
+        </meta>
+        <status value="completed"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="438650006"/>
+            <display value="Dietary education for breast feeding (procedure)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Stillen/Ernährung"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <performedDateTime value="2022-03-17T08:49:08Z"/>
+        <asserter>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </asserter>
+      </Procedure>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:199d3710-69be-4fd9-acc2-aeeadc0ef9a5"/>
+    <resource>
+      <Procedure>
+        <id value="199d3710-69be-4fd9-acc2-aeeadc0ef9a5"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_U2_Consultation|1.0.1"/>
+        </meta>
+        <status value="completed"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="408433001"/>
+            <display value="Recommendation to carer regarding prevention of sudden infant death syndrome (procedure)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="plötzlicher Kindstod"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <performedDateTime value="2022-03-17T08:49:08Z"/>
+        <asserter>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </asserter>
+      </Procedure>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:5ea13a4a-ed90-4af2-8765-69bb6d633886"/>
+    <resource>
+      <Procedure>
+        <id value="5ea13a4a-ed90-4af2-8765-69bb6d633886"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_U2_Consultation|1.0.1"/>
+        </meta>
+        <status value="completed"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="409066002:{363702006=444069008,363702006=426482000}"/>
+            <display value="Education, guidance and counseling (procedure) : Has focus (attribute) = Administration of Vitamin D supplement (procedure) , Has focus (attribute) = Prevention of dental caries (procedure) }">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Information zu Rachitisprophylaxe mittels Vitamin D und Kariesprophylaxe mittels Fluorid"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <performedDateTime value="2022-03-17T08:49:08Z"/>
+        <asserter>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </asserter>
+      </Procedure>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:7264326e-e1fc-4cc0-a1e4-e6e99c7ee89f"/>
+    <resource>
+      <Procedure>
+        <id value="7264326e-e1fc-4cc0-a1e4-e6e99c7ee89f"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_U2_Consultation|1.0.1"/>
+        </meta>
+        <status value="completed"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="409066002:363702006=698350008"/>
+            <display value="Education, guidance and counseling (procedure) : Has focus (attribute) = Administration of vitamin K1 via oral route (procedure)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Vitamin-K-Prophylaxe prüfen und wenn nötig durchführen"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <performedDateTime value="2022-03-17T08:49:08Z"/>
+        <asserter>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </asserter>
+      </Procedure>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:1a133a82-c9e1-4320-972f-24cf759b382e"/>
+    <resource>
+      <Procedure>
+        <id value="1a133a82-c9e1-4320-972f-24cf759b382e"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_U2_Consultation|1.0.1"/>
+        </meta>
+        <status value="completed"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="424673000"/>
+            <display value="Community resources education, guidance and counseling (procedure)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Informationen zu regionalen Unterstützungsangeboten (z.B. Eltern-Kind-Hilfen, Frühe Hilfen)"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <performedDateTime value="2022-03-17T08:49:08Z"/>
+        <asserter>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </asserter>
+      </Procedure>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:781f75e9-7c3a-4f5d-b787-0adce85704e2"/>
+    <resource>
+      <Procedure>
+        <id value="781f75e9-7c3a-4f5d-b787-0adce85704e2"/>
+        <meta>
+          <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_CMR_Procedure_Consultation_Annotation|1.0.1"/>
+        </meta>
+        <status value="completed"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <version value="http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <code value="408991007"/>
+            <display value="Education, guidance and counseling (procedure)">
+              <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German">
+                <extension url="content">
+                  <valueString value="Bemerkung"/>
+                </extension>
+              </extension>
+            </display>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:8ab053e2-9911-4949-9609-e7bb4bfcb771"/>
+        </subject>
+        <encounter>
+          <reference value="urn:uuid:d458c5a6-07a6-47f5-b82a-6c221b7446e2"/>
+        </encounter>
+        <performedDateTime value="2022-03-17T08:49:08Z"/>
+        <asserter>
+          <reference value="urn:uuid:dd7bbf79-c679-412c-abcb-59af0acbc01c"/>
+        </asserter>
+        <note>
+          <text value="Beratung zum Stillen bei Kind mit Ikterus"/>
+        </note>
+      </Procedure>
+    </resource>
+  </entry>
+</Bundle>
